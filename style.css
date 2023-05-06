@@ -1,22 +1,223 @@
-.navbar-text {
-  font-size: 10px;
-  color: #e8aa42;
+* {
+  box-sizing: border-box;
 }
-.navbar-1 {
-  padding: 0px;
+.first-navbar {
+  height: 20px;
 }
-.navbar-2 {
-  padding: 0px;
+.second-nav {
+  height: 40px;
 }
-.jumbotron-bg {
-  min-height: 100%;
-  min-width: 1024px;
-  width: 100%;
-  height: auto;
+.orange-text {
+  color: #f9a11b;
+  font-size: 11px;
+  text-align: center;
+}
+.orange-text:hover {
+  color: #fff;
+}
+.first-nav-bg {
+  background-color: #093b5c;
+}
+.second-nav-bg {
+  background-color: #093b5c;
+}
+.navbar-brand {
+  padding: 1px;
+}
+.img-brand {
+  margin: 5px;
+}
+.link-nav-2 {
+  color: #fff;
+}
+.container-hero {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+.banner-jb {
+  padding: 0% 10%;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 30%;
+  left: 0%;
+  color: #fff;
+}
+.card-jb {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 15%;
+}
+.card-absolt {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, 50%);
 }
 .card {
-  margin-top: 200px;
+  display: inline-block;
+  margin: 0px 10px;
+  border: 0px;
+  height: 150px;
+  z-index: 1;
+}
+.card-img-top {
+  max-width: 20%;
+  max-height: 7 0%;
+  margin: auto;
+  display: block;
+}
+.card:hover {
+  border: 1px solid rgb(255, 255, 255);
+  transform: scale(1.05);
+}
+.about {
+  margin: 10% 10% 5% 10%;
+  background-color: #093b5c;
+  height: 30%;
+  position: relative;
+  z-index: -1;
+}
+.image-model {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  bottom: 0;
+  margin-left: 4%;
+}
+.model-box {
+  position: relative;
+  float: left;
+  width: 40%;
+}
+.text-tentang-ti {
+  position: relative;
+  text-align: justify;
+  color: white;
+  font-size: 0.8vw;
+  padding: 10px;
+  align-items: center;
+  float: left;
+  width: 60%;
+  margin: 10%;
+}
+.title-tentang {
+  font-size: x-large;
+  font-weight: bold;
+}
+.tombol-about a {
+  font-size: 1vw;
+  padding: 0.5em 2em;
+  border: transparent;
+  background: dodgerblue;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.button-about:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(30, 144, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+@media (max-width: 800px) {
+  .card-jb {
+    flex-direction: column;
+    margin: 2% 0% 0% 0%;
+  }
+  .card-absolt {
+    position: relative;
+    transform: translate(-50%, 0%);
+  }
+  .banner-jb {
+    position: absolute;
+    top: 15%;
+    font-size: 10px;
+    text-align: left;
+  }
+  .about {
+    margin-top: 0%;
+  }
+}
+@media (min-width: 800px) and (max-width: 1200px) {
+  .card-jb {
+    flex-direction: row;
+    margin: 5% 0% 0% 0%;
+  }
+  .card-absolt {
+    position: relative;
+    transform: translate(-50%, 0%);
+  }
+  .banner-jb {
+    position: absolute;
+    top: 15%;
+    font-size: 10px;
+    text-align: left;
+  }
+  .about {
+    margin-top: 0%;
+  }
+}
+/* khusus artikel section */
+div.gallery {
+  border: 1px solid #ccc;
+  border-radius: 30px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  transform: scale(1.05);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+div.desc {
+  padding: 15px;
+}
+.responsive {
+  padding: 0 20px;
+  float: left;
+  width: 24.99999%;
+}
+.section-artikel {
+  margin: 0% 10%;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+/* khusus section kemitraan */
+
+.title-kemitraan {
+  margin: 4% 10% 1% 10%;
+  font-weight: bold;
+}
+.slideshow {
+  display: flex; /* Menggunakan flexbox untuk membuat gambar berada dalam satu baris */
+  overflow: hidden; /* Menghilangkan gambar yang melebihi viewport */
+}
+.logo-mitra {
+  width: 10%;
+  margin: auto;
+  /* Gambar akan menyesuaikan ukuran container */
+  height: auto; /* Mencegah gambar menjadi terlalu besar atau kecil */
+}
+.img-logo {
+  width: 90%;
+}
+.logo-mitra:hover {
+  transform: scale(1.05);
 }

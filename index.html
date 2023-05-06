@@ -4,175 +4,178 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teknik Informatika UNRI</title>
+    <link rel="icon" href="assets/logo-unri.jpg" />
     <!-- CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
     <link href="style.css" rel="stylesheet" />
-    <!-- CSS -->
-    <title>Teknik Informatika UNRI</title>
   </head>
 
   <body>
-    <!-- HEADER -->
-    <header>
-      <!-- navbar 1 -->
-      <nav class="navbar navbar-expand-lg navbar-dark navbar-1" style="background-color: #012946">
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link navbar-text" href="#">Universitas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link navbar-text" href="#">Fakultas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link navbar-text" href="#">Jurusan</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link navbar-text" href="#">Unduh Brosur</a>
-              </li>
-            </ul>
+    <nav class="first-navbar navbar navbar-expand-lg bg-body-tertiary ">
+      <div class="container-fluid first-nav-bg">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link orange-text" href="https://unri.ac.id/" j target="_blank">Universitas</a>
+            <a class="nav-link orange-text" target="_blank" href="https://ft.unri.ac.id/">Fakultas</a>
+            <a class="nav-link orange-text" target="_blank" href="https://ee.ft.unri.ac.id/">Jurusan</a>
+            <a class="nav-link orange-text" href="https://informatika.ft.unri.ac.id/wp-content/uploads/Brosur-TI-2021.pdf" target="_blank">Unduh Brosur</a>
+            <a class="nav-link orange-text" href="https://pmb.unri.ac.id/" target="_blank">Pendaftaran</a>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-      <!-- navbar 2 -->
-      <nav class="navbar navbar-expand-lg navbar-dark sticky-top navbar-2" style="background-color: #073c64">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"> <img src="assets/logo unri.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top mx-2 my-1" /></a>
+    <nav class=" second-nav navbar navbar-expand-lg bg-body-tertiary  sticky-top ">
+      <div class=" container-fluid second-nav-bg">
+        <a class="navbar-brand" href="#">
+          <img class="img-brand" src="assets/logo-brand.png" alt="Bootstrap" width="128" height="38" />
+        </a>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link link-nav-2 active" aria-current="page" href="#">Beranda</a>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Beranda</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Tentang</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Akademik</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sertifikasi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Galeri</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Kontak</a>
-              </li>
-            </ul>
+            <a class="nav-link link-nav-2" href="#">Artikel</a>
+            <a class="nav-link link-nav-2" href="#">Akademik</a>
+            <a class="nav-link link-nav-2" href="#">Sertifikasi</a>
+            <a class="nav-link link-nav-2" href="#">Galeri</a>
+            <a class="nav-link link-nav-2" href="#">Profil</a>
           </div>
         </div>
-      </nav>
-    </header>
-    <!--hero section-->
-    <div class="jumbotron">
-      <h1>SELAMAT DATANG <br />DI WEBSITE TEKNIK INFORMATIKA UNRI</h1>
-      <img class="jumbotron-bg" src="assets/bg-gedung-teknik.png" />
+      </div>
+    </nav>
 
-      <div class="container card bg-transparent">
-        <div class="row">
-          <div class="col">
-            <div class="card text-white bg-primary mb-3" style="max-width: 15rem, display:flex">
-              <div class="card-body">
-                <h5 class="card-title">Primary card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+    <!-- HERO SECTION -->
+
+    <div>
+      <div class="container-hero">
+        <img src="assets/bg-gedung-teknik.png" style="width: 100%" />
+        <div class="banner-jb">
+          <h1>SELAMAT DATANG DI<br />TEKNIK INFORMATIKA UNRI</h1>
+          <p>Program Studi Teknik Informatika merupakan salah satu program studi sarjana<br />yang ada di Universitas Riau yang berada di bawah Jurusan Teknik Elektro Fakultas Teknik.</p>
+        </div>
+      </div>
+
+      <!-- CARD -->
+      <div class="card-absolt">
+        <div class="card-jb">
+          <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem">
+            <img src="assets/topi-toga.png" class="card-img-top" alt="alumini" />
+            <div class="card-body">
+              <p class="card-text text-center">8.000 ORANG <br />ALUMNI</p>
             </div>
           </div>
-          <div class="col">
-            <div class="card text-white bg-secondary mb-3" style="max-width: 15rem,  display:flex">
-              <div class="card-body">
-                <h5 class="card-title">Secondary card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+          <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem">
+            <img src="assets/ilu-student.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text text-center">8.000 ORANG<br />MAHASISWA</p>
             </div>
           </div>
-          <div class="col">
-            <div class="card text-white bg-success mb-3" style="max-width: 15rem,  display:flex">
-              <div class="card-body">
-                <h5 class="card-title">Success card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+          <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem">
+            <img src="assets/ilu-dosen.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text text-center">100 ORANG <br />DOSEN PENGAJAR</p>
             </div>
           </div>
-          <div class="col">
-            <div class="card text-white bg-danger mb-3" style="max-width: 15rem,  display:flex">
-              <div class="card-body">
-                <h5 class="card-title">Danger card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+          <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem">
+            <img src="assets/ilu-com.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text text-center">3 BIDANG <br />KONSENTRASI</p>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!--about section-->
-    <div class="container-fluid">
-      <div class="container bg-primary" style="height: 450px">
-        <div class="row">
-          <div class="col-5">
-            <img src="assets/model.png" alt="#" height="350px" style="margin-bottom: 0px; margin-top: 100px; margin-left: 50px" />
-          </div>
-          <div class="col-7">
-            <div>
-              <h1>TENTANG <br />TEKNIK INFORMATIKA</h1>
-              <br />
-              <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia accusamus quaerat cupiditate voluptatibus vel, ullam quos labore inventore nostrum aliquam.</h4>
-              <br />
-              <button type="button" class="btn btn-warning">Warning</button>
-            </div>
+    <!-- ABOUT SECTION-->
+
+    <div class="about">
+      <div class="d-flex flex-row">
+        <div class="model-box fixed">
+          <img src="assets/model.png" class="image-model" />
+        </div>
+        <div class="text-tentang-ti">
+          <p class="title-tentang">TENTANG <br />TEKNIK INFORMATIKA</p>
+          <p>
+            Program Studi Teknik Informatika merupakan salah satu program studi sarjana yang ada di Universitas Riau (UNRI). Program Studi Teknik Informatika berada di bawah Jurusan Teknik Elektro. Program Studi Teknik Informatika bisa
+            dikatakan sebagai program studi yang masih muda dibandingkan dengan Program Studi lain yang ada di Fakultas Teknik.
+          </p>
+          <div class="tombol-about">
+            <a target="_blank" href="#">PROFIL</a>
           </div>
         </div>
       </div>
     </div>
 
-    <!--post-->
-    <div class="container bg-transparent">
-      <div class="row">
-        <div class="col">
-          <div class="card text-white bg-primary mb-3" style="max-width: 15rem, display:flex">
-            <div class="card-body">
-              <h5 class="card-title">Primary card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
+    <!-- ARTIKEL SECTION-->
+    <div class="section-artikel">
+      <p class="title-tentang">ARTIKEL</p>
+      <div class="responsive">
+        <div class="gallery shadow-lg">
+          <a target="_blank" href="#">
+            <img src="assets/artikel-01.png" alt=".." width="600px" height="400px" />
+          </a>
         </div>
-        <div class="col">
-          <div class="card text-white bg-secondary mb-3" style="max-width: 15rem,  display:flex">
-            <div class="card-body">
-              <h5 class="card-title">Secondary card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-white bg-success mb-3" style="max-width: 15rem,  display:flex">
-            <div class="card-body">
-              <h5 class="card-title">Success card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-white bg-danger mb-3" style="max-width: 15rem,  display:flex">
-            <div class="card-body">
-              <h5 class="card-title">Danger card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
+        <div class="desc">Add a description of the image here</div>
       </div>
-    </di>
-    <!--footer-->
-    <footer>
 
-    </footer>
+      <div class="responsive">
+        <div class="gallery shadow-lg">
+          <a target="_blank" href="#">
+            <img src="assets/artikel-02.png" alt=".." width="600px" height="400px" />
+          </a>
+        </div>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery shadow-lg">
+          <a target="_blank" href="#">
+            <img src="assets/artikel-03.png" alt="..." width="600px" height="400px" />
+          </a>
+        </div>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery shadow-lg">
+          <a target="_blank" href="#">
+            <img src="assets/artikel-04.png" alt="..." width="600px" height="400px" />
+          </a>
+        </div>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+
+      <div class="clearfix"></div>
+    </div>
+
+    <!-- Kemitraan section -->
+    <p class="title-tentang title-kemitraan">KEMITRAAN</p>
+    <div class="slideshow">
+      <a class="logo-mitra" target="_blank" href="https://www.netacad.com/">
+        <img class="img-logo" src="assets/mitra/logo-cisco.jpg" />
+      </a>
+      <a class="logo-mitra" target="_blank" href="https://www.esri.com">
+        <img class="img-logo" src="assets/mitra/logo-esri-1.jpg" />
+      </a>
+      <a class="logo-mitra" target="_blank" href="https://www.kominfo.go.id/">
+        <img class="img-logo" src="assets/mitra/logo-kemenkominfo.jpg" />
+      </a>
+      <a class="logo-mitra" target="_blank" href="https://www.microsoft.com/id-id">
+        <img class="img-logo" src="assets/mitra/logo-microsoft.jpg" />
+      </a>
+      <a class="logo-mitra" target="_blank" href="https://ee.ft.unri.ac.id/mikrotik-academy/">
+        <img class="img-logo" src="assets/mitra/logo-mikrotik-unri-akedemi.jpg" />
+      </a>
+      <a class="logo-mitra" target="_blank" href="https://mikrotik.com/training/academy">
+        <img class="img-logo" src="assets/mitra/logo-mikrotik.jpg" />
+      </a>
+      <a class="logo-mitra" target="_blank" href="https://academy.oracle.com/en/oa-web-overview.html">
+        <img class="img-logo" src="assets/mitra/logo-oracle.jpg" />
+      </a>
+      <a class="logo-mitra" target="_blank" href="https://www.redhat.com/en">
+        <img class="img-logo" src="assets/mitra/logo-redhat-1.jpg" />
+      </a>
+    </div>
   </body>
 </html>
