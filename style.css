@@ -221,3 +221,23 @@ div.desc {
 .logo-mitra:hover {
   transform: scale(1.05);
 }
+
+
+.slider{
+  display:flex;
+  height: auto;
+  margin:auto;
+  overflow:hidden;
+  align-items:center;
+}
+.slider :before{
+  position:absolute;
+  z-index: 1;
+  left:0;
+  content: "";
+  width: 24%;
+  height: 110px;
+  background: ;
+
+
+}
