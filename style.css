@@ -48,7 +48,7 @@
   text-align: left;
   color: white;
 }
-h1{
+h1 {
   font-weight: 600git;
 }
 .banner-jb {
@@ -270,4 +270,46 @@ footer {
   padding: 1% 10%;
   color: #c0c0c0;
   background-color: rgb(27, 27, 27);
+}
+
+/*HALAMAN POST*/
+
+.hero-page {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  object-fit: cover;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.body-page-content {
+  content: "";
+  display: table;
+  clear: both;
+  margin: 0% 10%;
+}
+.img-post {
+  max-width: 40%;
+  height: auto;
+}
+.side-bar{
+  flex-direction: column;
 }
