@@ -9,6 +9,22 @@
 .second-nav {
   height: 40px;
 }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #093b5c;
+  min-width: 140px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 .orange-text {
   color: #f9a11b;
   font-size: 11px;
@@ -309,7 +325,13 @@ footer {
 .img-post {
   max-width: 40%;
   height: auto;
+  display: inline;
+  float: left;
+  padding: 2%;
 }
-.side-bar{
+.side-bar {
   flex-direction: column;
+}
+.artikel-text{
+  text-align: justify;
 }
