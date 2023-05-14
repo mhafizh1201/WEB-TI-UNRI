@@ -1,20 +1,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-* {
-  box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
 }
-.first-navbar {
-  height: 20px;
+/* NAVBAR 1 */
+.first-navbar{
+    background-color: #012946 !important;
+    height: 35px;
+    display: flex;
 }
-.second-nav {
-  height: 40px;
-  display: flex;
+.text-nav-1{
+    color: #f9a11b!important;
+    font-weight: 600;
+    }
+.text-nav-1:hover{
+  color: #fff !important;
 }
-.navbar {
-  padding: 0%;
+.item-navbar-1{
+    margin-left: 980px;
+    font-size: 13px;
 }
-/*coba coba coment wwkk*/
+/* NAVBAR 1 */
+
+/* NAVBAR 2 */
+.item-navbar-2{
+    margin-left: 700px;
+}
+.second-navbar{
+    background-color: #073C64 !important;
+    position: sticky;
+}
+.text-nav-2{
+    color: white !important;
+    font-weight: 600;
+}
+.text-nav-2:hover{
+  color: #f9a11b !important;
+}
 .dropdown {
   position: relative;
   display: inline-block;
@@ -30,87 +56,76 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
+  transition: 35s;
+
 }
-.orange-text {
-  color: #f9a11b;
-  font-size: 11px;
-  text-align: center;
-  font-weight: 600;
-}
-.orange-text:hover {
-  color: #fff;
-}
-.first-nav-bg {
-  background-color: #093b5c;
-}
-.second-nav-bg {
-  background-color: #093b5c;
-}
-.navbar-brand {
-  padding: 1px;
-}
-.img-brand {
-  margin: 5px;
-}
-.link-nav-2 {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.link-nav-2:visited {
-  color: #c5c5c5;
+/* NAVBAR 2 */
+
+/* HERO SECTION */
+.container-hero {
+    position: relative;
+    text-align: left;
+    color: white;
 }
 
-.aktif {
-  font-weight: bold;
-  scale: 1.1;
-  color: #fff;
-}
-.container-hero {
-  position: relative;
-  text-align: left;
-  color: white;
-}
-h1 {
-  font-weight: 600git;
-}
 .banner-jb {
-  padding: 0% 10%;
-  position: absolute;
-  top: 30%;
-  left: 0%;
-  color: #fff;
-  font-weight: 600;
+    padding: 0% 10%;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    color: #fff;
+    font-weight: bold;
 }
+.text-jb{
+    font-weight: bold;
+}
+.nav-active{
+  color: #fff;
+}
+.gambar-jb{
+    width: 100%;
+
+}
+/* HERO SECTION */
+
+/* CARD */
 .card-jb {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 0px 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15%;
 }
 .card-absolt {
-  position: absolute;
-  bottom: 0px;
-  left: 50%;
-  transform: translate(-50%, 50%);
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 50%);
 }
 .card {
-  display: inline-block;
-  margin: 0px 10px;
-  border: 0px;
-  height: 150px;
-  z-index: 1;
-}
+    display: inline-block;
+    margin: 0px 10px;
+    border: 0px;
+    height: 200px;
+    z-index: 1;
+    width: 18rem;
+  }
 .card-img-top {
-  max-width: 20%;
-  max-height: 7 0%;
-  margin: auto;
-  display: block;
-}
+    max-width: 20%;
+    max-height: 7 0%;
+    margin: auto;
+    display: block;
+  }
 .card:hover {
-  border: 1px solid rgb(255, 255, 255);
-  transform: scale(1.05);
+    border: 1px solid rgb(255, 255, 255);
+    transform: scale(1.05);
+  }
+.card-text{
+    font-weight: bold;
 }
+/* CARD */
+
+/* ABOUT SECTION */
 .about {
   margin: 10% 10% 5% 10%;
   background-color: #093b5c;
@@ -145,6 +160,9 @@ h1 {
   font-size: x-large;
   font-weight: bold;
 }
+.text-about{
+  font-weight: medium;
+}
 .tombol-about a {
   font-size: 1vw;
   padding: 0.5em 2em;
@@ -153,6 +171,7 @@ h1 {
   color: white;
   border-radius: 4px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .button-about:hover {
@@ -160,50 +179,52 @@ h1 {
   background: linear-gradient(90deg, rgba(30, 144, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
 }
 @media (max-width: 800px) {
-  .card-jb {
-    flex-direction: column;
-    margin: 2% 0% 0% 0%;
-  }
-  .card-absolt {
-    position: relative;
-    transform: translate(-50%, 0%);
-  }
-  .banner-jb {
-    position: absolute;
-    top: 15%;
-    font-size: 10px;
-    text-align: left;
-  }
-  .about {
-    margin-top: 0%;
-  }
-  .hidden-responsi {
-    display: none;
-  }
+    .card-jb {
+      flex-direction: column;
+      margin: 2% 0% 0% 0%;
+    }
+    .card-absolt {
+      position: relative;
+      transform: translate(-50%, 0%);
+    }
+    .banner-jb{
+      position: absolute;
+      top: 15%;
+      font-size: 10px;
+      text-align: left;
+    }
+    .about {
+      margin-top: 0%;
+    }
+    .hidden-responsif{
+      display: none;
+    }
 }
 @media (min-width: 800px) and (max-width: 1200px) {
-  .card-jb {
-    flex-direction: row;
-    margin: 5% 0% 0% 0%;
-  }
-  .card-absolt {
-    position: relative;
-    transform: translate(-50%, 0%);
-  }
-  .banner-jb {
-    position: absolute;
-    top: 15%;
-    font-size: 10px;
-    text-align: left;
-  }
-  .about {
-    margin-top: 0%;
-  }
-  .hidden-responsi {
-    display: none;
-  }
+    .card-jb {
+      flex-direction: row;
+      margin: 5% 0% 0% 0%;
+    }
+    .card-absolt {
+      position: relative;
+      transform: translate(-50%, 0%);
+    }
+    .banner-jb {
+      position: absolute;
+      top: 15%;
+      font-size: 10px;
+      text-align: left;
+    }
+    .about {
+      margin-top: 0%;
+    }
+    .hidden-responsi {
+      display: none;
+    }
 }
-/* khusus artikel section */
+/* ABOUT SECTION */
+
+/* ARTIKEL SECTION */
 div.gallery {
   border: 1px solid #ccc;
   border-radius: 30px;
@@ -243,9 +264,9 @@ div.desc {
     width: 100%;
   }
 }
+/* ARTIKEL SECTION */
 
-/* khusus section kemitraan */
-
+/* KEMITRAAN SECTION */
 .title-kemitraan {
   margin: 4% 10% 1% 10%;
   font-weight: bold;
@@ -266,8 +287,9 @@ div.desc {
 .logo-mitra:hover {
   transform: scale(1.15);
 }
+/* KEMITRAAN SECTION */
 
-/* footer */
+/* FOOTER */
 footer {
   background-color: black;
   margin-top: 2%;
@@ -292,58 +314,99 @@ footer {
   text-decoration: none;
   color: #ffffff;
 }
+/* FOOTER */
 
+/* COPYRIGHT */
 .container-copyright {
   font-size: 1svw;
   padding: 1% 10%;
   color: #c0c0c0;
-  background-color: rgb(27, 27, 27);
+  background-color: #1E1C1C;
 }
+/* COPYRIGHT */
 
 /*HALAMAN POST*/
-
-.hero-page {
-  width: 100%;
+.judul-page {
   height: 200px;
   text-align: center;
   justify-content: center;
   display: flex;
-  object-fit: cover;
+  position: relative;
+  text-align: left;
+  color: white;
+  }
+.img-judul-page{
+    width: 100%;
+    display: flex;
 }
-
-/* Create three unequal columns that floats next to each other */
+.judul-text-page{
+    padding-top: 60px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.h1-text-page{
+  font-weight: bold;
+}
+.judul-text-content{
+  font-weight: bold;
+}  
+  /* Create three unequal columns that floats next to each other */
 .column {
-  float: left;
-  padding: 10px;
-}
-
-/* Left and right column */
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left and right column */
 .column.side {
-  width: 25%;
-}
-
-/* Middle column */
+    width: 25%;
+  }
+  
+  /* Middle column */
 .column.middle {
-  width: 75%;
+    width: 75%;
+  }
+.judul-content{
+  font-weight: bold;
+}  
+  /* Clear floats after the columns */
+.body-page-content {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 0% 10%;
+  }
+.img-post {
+    max-width: 40%;
+    height: auto;
+    display: inline;
+    float: left;
+    padding: 2%;
+  }
+.side-bar {
+    flex-direction: column;
+  }
+.artikel-text {
+    text-align: justify;
 }
 
-/* Clear floats after the columns */
-.body-page-content {
-  content: "";
-  display: table;
-  clear: both;
-  margin: 0% 10%;
+/* HALAMAN KONTAK */
+.kingster-item-pdlr, .gdlr-core-item-pdlr {
+  padding-left: 20px;
+  padding-right: 20px;
 }
-.img-post {
-  max-width: 40%;
-  height: auto;
-  display: inline;
-  float: left;
-  padding: 2%;
+
+/* HALAMAN VIDEO */
+.container-video{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  padding: 50px;
 }
-.side-bar {
-  flex-direction: column;
-}
-.artikel-text {
-  text-align: justify;
+.video{
+  width: 100%;
+  display: flex;
+  height: 600px;
 }

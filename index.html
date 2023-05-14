@@ -7,188 +7,302 @@
     <title>Teknik Informatika UNRI</title>
     <link rel="icon" href="assets/logo-unri.jpg" />
     <!-- CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
     <link href="style.css" rel="stylesheet" />
   </head>
-
   <body>
-    <div class="hidden-responsi">
-      <nav class="first-navbar navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid first-nav-bg">
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link orange-text" href="https://unri.ac.id/" j target="_blank">Universitas</a>
-              <a class="nav-link orange-text" target="_blank" href="https://ft.unri.ac.id/">Fakultas</a>
-              <a class="nav-link orange-text" target="_blank" href="https://ee.ft.unri.ac.id/">Jurusan</a>
-              <a class="nav-link orange-text" href="https://informatika.ft.unri.ac.id/wp-content/uploads/Brosur-TI-2021.pdf" target="_blank">Unduh Brosur</a>
-              <a class="nav-link orange-text" href="https://pmb.unri.ac.id/" target="_blank">Pendaftaran</a>
+    <header>
+      <!-- navbar 1 -->
+      <nav class="navbar navbar-expand-lg first-navbar">
+        <div class="hidden-responsif">
+          <div class="container-fluid ms-3">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="item-navbar-1 navbar-nav me-auto mb-2 mb-lg-0 gap-2">
+                <li class="nav-item">
+                  <a class="text-nav-1 nav-link" href="#">Universitas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="text-nav-1 nav-link" href="#">Fakultas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="text-nav-1 nav-link" href="#">Jurusan</a>
+                </li>
+                <li class="nav-item">
+                  <a class="text-nav-1 nav-link" href="#">Unduh Brosur</a>
+                </li>
+                <li class="nav-item">
+                  <a class="text-nav-1 nav-link" href="#">Pendaftaran</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </nav>
-    </div>
+      <!-- Navbar 2 -->
+      <nav class="navbar sticky-top navbar-expand-lg second-navbar">
+        <div class="container-fluid ms-3">
+          <a class="navbar-brand" href="#">
+            <img
+              class="img-brand"
+              src="assets/logo-brand.png"
+              alt="Bootstrap"
+              width="128"
+              height="38"
+            />
+          </a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="item-navbar-2 navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+              <li class="nav-item">
+                <a
+                  class="text-nav-2 nav-link nav-active"
+                  aria-current="page"
+                  href="index.html"
+                  >Beranda</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="text-nav-2 nav-link" href="#">Tentang</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-nav-2 nav-link" href="#">Akademik</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-nav-2 nav-link" href="#">Sertifikasi</a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <a class="text-nav-2 nav-link">Galeri</a>
+                  <div class="dropdown-content drop-menu">
+                      <a class="text-nav-2 nav-link" href="#">Foto</a>
+                      <a class="text-nav-2 nav-link" href="video-page.html">Video</a>
+                      <a class="text-nav-2 nav-link" href="vr-page.html"
+                        >Virtual Tour</a
+                      >
+                  </div>
+                </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="text-nav-2 nav-link" href="kontak-page.html"
+                  >Kontak</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-    <nav class="second-nav navbar navbar-expand-lg bg-body-tertiary sticky-top">
-      <div class="container-fluid second-nav-bg">
-        <a class="navbar-brand" href="#">
-          <img class="img-brand" src="assets/logo-brand.png" alt="Bootstrap" width="128" height="38" />
-        </a>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link link-nav-2 aktif" aria-current="page" href="index.html">Beranda</a>
-            <a class="nav-link link-nav-2" href="#">Artikel</a>
-            <a class="nav-link link-nav-2" href="#">Akademik</a>
-            <a class="nav-link link-nav-2" href="#">Sertifikasi</a>
-            <a class="nav-link link-nav-2">
-              <div class="dropdown">
-                <span class="link-nav-2">Galeri</span>
-                <div class="dropdown-content drop-menu">
-                  <a class="nav-link link-nav-2" href="#">Foto</a>
-                  <a class="nav-link link-nav-2" href="#">Vidoe</a>
-                  <a class="nav-link link-nav-2" href="vr-page.html">Virtual Tour</a>
+    <main>
+      <section>
+        <!-- hero section -->
+        <div class="container-hero">
+          <img class="gambar-jb" src="assets/bg-gedung-teknik2.png" />
+          <div class="banner-jb">
+            <h1 class="text-jb">
+              SELAMAT DATANG DI<br />TEKNIK INFORMATIKA UNRI
+            </h1>
+            <p>
+              Program Studi Teknik Informatika merupakan salah satu program
+              studi sarjana<br />yang ada di Universitas Riau yang berada di
+              bawah Jurusan Teknik Elektro Fakultas Teknik.
+            </p>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="card-absolt">
+          <div class="card-jb">
+            <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+              <img
+                src="assets/topi-toga.png"
+                class="card-img-top"
+                alt="alumini"
+              />
+              <div class="card-body">
+                <p class="card-text text-center">8.000 ORANG <br />ALUMNI</p>
+              </div>
+            </div>
+            <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+              <img
+                src="assets/ilu-student.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-center">8.000 ORANG<br />MAHASISWA</p>
+              </div>
+            </div>
+            <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+              <img src="assets/ilu-dosen.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text text-center">
+                  100 ORANG <br />DOSEN PENGAJAR
+                </p>
+              </div>
+            </div>
+            <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+              <img src="assets/ilu-com.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text text-center">3 BIDANG <br />KONSENTRASI</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <!-- about section -->
+        <div class="section-about">
+          <div class="about">
+            <div class="d-flex flex-row">
+              <div class="model-box fixed">
+                <img src="assets/model.png" class="image-model" />
+              </div>
+              <div class="text-tentang-ti">
+                <p class="title-tentang">TENTANG <br />TEKNIK INFORMATIKA</p>
+                <p class="text-about">
+                  Program Studi Teknik Informatika merupakan salah satu program
+                  studi sarjana yang ada di Universitas Riau (UNRI). Program
+                  Studi Teknik Informatika berada di bawah Jurusan Teknik
+                  Elektro. Program Studi Teknik Informatika bisa dikatakan
+                  sebagai program studi yang masih muda dibandingkan dengan
+                  Program Studi lain yang ada di Fakultas Teknik.
+                </p>
+                <div class="tombol-about">
+                  <a target="_blank" href="#">PROFIL</a>
                 </div>
               </div>
-            </a>
-            <a class="nav-link link-nav-2" href="#">Profil</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-
-    <!-- HERO SECTION -->
-
-    <div>
-      <div class="container-hero">
-        <img src="assets/bg-gedung-teknik.png" style="width: 100%" />
-        <div class="banner-jb">
-          <h1>SELAMAT DATANG DI<br />TEKNIK INFORMATIKA UNRI</h1>
-          <p>Program Studi Teknik Informatika merupakan salah satu program studi sarjana<br />yang ada di Universitas Riau yang berada di bawah Jurusan Teknik Elektro Fakultas Teknik.</p>
-        </div>
-      </div>
-
-      <!-- CARD -->
-      <div class="card-absolt">
-        <div class="card-jb">
-          <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem">
-            <img src="assets/topi-toga.png" class="card-img-top" alt="alumini" />
-            <div class="card-body">
-              <p class="card-text text-center">8.000 ORANG <br />ALUMNI</p>
-            </div>
-          </div>
-          <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem">
-            <img src="assets/ilu-student.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-text text-center">8.000 ORANG<br />MAHASISWA</p>
-            </div>
-          </div>
-          <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem">
-            <img src="assets/ilu-dosen.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-text text-center">100 ORANG <br />DOSEN PENGAJAR</p>
-            </div>
-          </div>
-          <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem">
-            <img src="assets/ilu-com.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-text text-center">3 BIDANG <br />KONSENTRASI</p>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
 
-    <!-- ABOUT SECTION-->
-
-    <div class="about">
-      <div class="d-flex flex-row">
-        <div class="model-box fixed">
-          <img src="assets/model.png" class="image-model" />
-        </div>
-        <div class="text-tentang-ti">
-          <p class="title-tentang">TENTANG <br />TEKNIK INFORMATIKA</p>
-          <p>
-            Program Studi Teknik Informatika merupakan salah satu program studi sarjana yang ada di Universitas Riau (UNRI). Program Studi Teknik Informatika berada di bawah Jurusan Teknik Elektro. Program Studi Teknik Informatika bisa
-            dikatakan sebagai program studi yang masih muda dibandingkan dengan Program Studi lain yang ada di Fakultas Teknik.
-          </p>
-          <div class="tombol-about">
-            <a target="_blank" href="#">PROFIL</a>
+      <section>
+        <!-- articles section -->
+        <div class="section-artikel">
+          <p class="title-tentang">ARTIKEL</p>
+          <div class="responsive">
+            <div class="gallery shadow-lg">
+              <a href="post-page.html">
+                <img
+                  src="assets/artikel-01.png"
+                  alt=".."
+                  width="600px"
+                  height="400px"
+                />
+              </a>
+            </div>
+            <div class="desc">Add a description of the image here</div>
           </div>
-        </div>
-      </div>
-    </div>
 
-    <!-- ARTIKEL SECTION-->
-    <div class="section-artikel">
-      <p class="title-tentang">ARTIKEL</p>
-      <div class="responsive">
-        <div class="gallery shadow-lg">
-          <a href="post-page.html">
-            <img src="assets/artikel-01.png" alt=".." width="600px" height="400px" />
+          <div class="responsive">
+            <div class="gallery shadow-lg">
+              <a target="_blank" href="#">
+                <img
+                  src="assets/artikel-02.png"
+                  alt=".."
+                  width="600px"
+                  height="400px"
+                />
+              </a>
+            </div>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery shadow-lg">
+              <a target="_blank" href="#">
+                <img
+                  src="assets/artikel-03.png"
+                  alt="..."
+                  width="600px"
+                  height="400px"
+                />
+              </a>
+            </div>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery shadow-lg">
+              <a target="_blank" href="#">
+                <img
+                  src="assets/artikel-04.png"
+                  alt="..."
+                  width="600px"
+                  height="400px"
+                />
+              </a>
+            </div>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </section>
+
+      <section>
+        <!-- kemitraan section -->
+        <p class="title-tentang title-kemitraan">KEMITRAAN</p>
+        <div class="slideshow">
+          <a class="logo-mitra" target="_blank" href="https://www.netacad.com/">
+            <img class="img-logo" src="assets/mitra/logo-cisco.jpg" />
+          </a>
+          <a class="logo-mitra" target="_blank" href="https://www.esri.com">
+            <img class="img-logo" src="assets/mitra/logo-esri-1.jpg" />
+          </a>
+          <a
+            class="logo-mitra"
+            target="_blank"
+            href="https://www.kominfo.go.id/"
+          >
+            <img class="img-logo" src="assets/mitra/logo-kemenkominfo.jpg" />
+          </a>
+          <a
+            class="logo-mitra"
+            target="_blank"
+            href="https://www.microsoft.com/id-id"
+          >
+            <img class="img-logo" src="assets/mitra/logo-microsoft.jpg" />
+          </a>
+          <a
+            class="logo-mitra"
+            target="_blank"
+            href="https://ee.ft.unri.ac.id/mikrotik-academy/"
+          >
+            <img
+              class="img-logo"
+              src="assets/mitra/logo-mikrotik-unri-akedemi.jpg"
+            />
+          </a>
+          <a
+            class="logo-mitra"
+            target="_blank"
+            href="https://mikrotik.com/training/academy"
+          >
+            <img class="img-logo" src="assets/mitra/logo-mikrotik.jpg" />
+          </a>
+          <a
+            class="logo-mitra"
+            target="_blank"
+            href="https://academy.oracle.com/en/oa-web-overview.html"
+          >
+            <img class="img-logo" src="assets/mitra/logo-oracle.jpg" />
+          </a>
+          <a
+            class="logo-mitra"
+            target="_blank"
+            href="https://www.redhat.com/en"
+          >
+            <img class="img-logo" src="assets/mitra/logo-redhat-1.jpg" />
           </a>
         </div>
-        <div class="desc">Add a description of the image here</div>
-      </div>
+      </section>
+    </main>
 
-      <div class="responsive">
-        <div class="gallery shadow-lg">
-          <a target="_blank" href="#">
-            <img src="assets/artikel-02.png" alt=".." width="600px" height="400px" />
-          </a>
-        </div>
-        <div class="desc">Add a description of the image here</div>
-      </div>
-
-      <div class="responsive">
-        <div class="gallery shadow-lg">
-          <a target="_blank" href="#">
-            <img src="assets/artikel-03.png" alt="..." width="600px" height="400px" />
-          </a>
-        </div>
-        <div class="desc">Add a description of the image here</div>
-      </div>
-
-      <div class="responsive">
-        <div class="gallery shadow-lg">
-          <a target="_blank" href="#">
-            <img src="assets/artikel-04.png" alt="..." width="600px" height="400px" />
-          </a>
-        </div>
-        <div class="desc">Add a description of the image here</div>
-      </div>
-
-      <div class="clearfix"></div>
-    </div>
-
-    <!-- Kemitraan section -->
-    <p class="title-tentang title-kemitraan">KEMITRAAN</p>
-    <div class="slideshow">
-      <a class="logo-mitra" target="_blank" href="https://www.netacad.com/">
-        <img class="img-logo" src="assets/mitra/logo-cisco.jpg" />
-      </a>
-      <a class="logo-mitra" target="_blank" href="https://www.esri.com">
-        <img class="img-logo" src="assets/mitra/logo-esri-1.jpg" />
-      </a>
-      <a class="logo-mitra" target="_blank" href="https://www.kominfo.go.id/">
-        <img class="img-logo" src="assets/mitra/logo-kemenkominfo.jpg" />
-      </a>
-      <a class="logo-mitra" target="_blank" href="https://www.microsoft.com/id-id">
-        <img class="img-logo" src="assets/mitra/logo-microsoft.jpg" />
-      </a>
-      <a class="logo-mitra" target="_blank" href="https://ee.ft.unri.ac.id/mikrotik-academy/">
-        <img class="img-logo" src="assets/mitra/logo-mikrotik-unri-akedemi.jpg" />
-      </a>
-      <a class="logo-mitra" target="_blank" href="https://mikrotik.com/training/academy">
-        <img class="img-logo" src="assets/mitra/logo-mikrotik.jpg" />
-      </a>
-      <a class="logo-mitra" target="_blank" href="https://academy.oracle.com/en/oa-web-overview.html">
-        <img class="img-logo" src="assets/mitra/logo-oracle.jpg" />
-      </a>
-      <a class="logo-mitra" target="_blank" href="https://www.redhat.com/en">
-        <img class="img-logo" src="assets/mitra/logo-redhat-1.jpg" />
-      </a>
-    </div>
-
-    <!-- FOOTER -->
     <footer>
       <div class="container">
         <div class="row">
@@ -212,17 +326,35 @@
               <span class="clear"></span>
               <div class="menu-informatika-container">
                 <ul id="menu-informatika" class="menu">
-                  <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7785">
-                    <a href="https://informatika.ft.unri.ac.id/category/berita/">Berita</a>
+                  <li
+                    class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7785"
+                  >
+                    <a href="https://informatika.ft.unri.ac.id/category/berita/"
+                      >Berita</a
+                    >
                   </li>
-                  <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7792">
-                    <a href="https://informatika.ft.unri.ac.id/category/event/">Event</a>
+                  <li
+                    class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7792"
+                  >
+                    <a href="https://informatika.ft.unri.ac.id/category/event/"
+                      >Event</a
+                    >
                   </li>
-                  <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7956">
-                    <a href="https://informatika.ft.unri.ac.id/category/poster-mahasiswa/">Poster Mahasiswa</a>
+                  <li
+                    class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7956"
+                  >
+                    <a
+                      href="https://informatika.ft.unri.ac.id/category/poster-mahasiswa/"
+                      >Poster Mahasiswa</a
+                    >
                   </li>
-                  <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7793">
-                    <a href="https://informatika.ft.unri.ac.id/category/berita/prestasi-mahasiswa/">Prestasi Mahasiswa</a>
+                  <li
+                    class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7793"
+                  >
+                    <a
+                      href="https://informatika.ft.unri.ac.id/category/berita/prestasi-mahasiswa/"
+                      >Prestasi Mahasiswa</a
+                    >
                   </li>
                 </ul>
               </div>
@@ -234,16 +366,32 @@
               <span class="clear"></span>
               <div class="menu-link-terkait-container">
                 <ul id="menu-link-terkait" class="menu">
-                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7954">
-                    <a target="_blank" rel="noopener" href="https://sitei.ft.unri.ac.id/">SITEI (Akademik)</a>
+                  <li
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7954"
+                  >
+                    <a
+                      target="_blank"
+                      rel="noopener"
+                      href="https://sitei.ft.unri.ac.id/"
+                      >SITEI (Akademik)</a
+                    >
                   </li>
-                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7739">
-                    <a href="https://kemahasiswaan.unri.ac.id/news/category/Beasiswa">Beasiswa</a>
+                  <li
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7739"
+                  >
+                    <a
+                      href="https://kemahasiswaan.unri.ac.id/news/category/Beasiswa"
+                      >Beasiswa</a
+                    >
                   </li>
-                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7784">
+                  <li
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7784"
+                  >
                     <a href="https://iconeei.id/">Konferensi Internasional</a>
                   </li>
-                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7738">
+                  <li
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7738"
+                  >
                     <a href="http://tracer.unri.ac.id">Tracer Study</a>
                   </li>
                 </ul>
@@ -251,24 +399,30 @@
             </div>
           </div>
           <div class="col-3">
-            <div id="custom_html-3" class="widget_text widget widget_custom_html kingster-widget">
+            <div
+              id="custom_html-3"
+              class="widget_text widget widget_custom_html kingster-widget"
+            >
               <div class="textwidget custom-html-widget">
                 <br />
                 <br />
                 <br />
-                <center>
-                  <img src="http://informatika.ft.unri.ac.id/wp-content/uploads/akreditasi-ti-b.png" />
-                </center>
+                <div class="gambar-footer">
+                  <img
+                    src="http://informatika.ft.unri.ac.id/wp-content/uploads/akreditasi-ti-b.png"
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <section>
+        <div class="container-copyright">
+          <div class="copyright">&copy;Copyright All Right Reserved 2021</div>
+        </div>
+      </section>
     </footer>
-    <section>
-      <div class="container-copyright">
-        <div class="copyright">&copy;Copyright All Right Reserved 2021</div>
-      </div>
-    </section>
   </body>
 </html>
