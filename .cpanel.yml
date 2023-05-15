@@ -10,4 +10,3 @@ deployment:
     - /bin/cp post-page.html $DEPLOYPATH
     - /bin/cp video-page.html $DEPLOYPATH
     - /bin/cp vr-page.html $DEPLOYPATH
-    
