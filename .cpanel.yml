@@ -1,8 +1,13 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/n1574345/public_html/teknikinformatikaunri.xyz
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - export DEPLOYPATH=/home/n1574345/public_html/teknikinformatikaunri.xyz/
     - /bin/cp tutor-deploy.txt $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp kontak-page.html $DEPLOYPATH
+    - /bin/cp photo-page.html $DEPLOYPATH
+    - /bin/cp post-page.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp video-page.html $DEPLOYPATH
+    - /bin/cp vr-page.html $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
