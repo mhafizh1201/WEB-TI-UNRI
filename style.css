@@ -438,3 +438,11 @@ footer {
   object-fit: cover;
   border-radius: 5%;
 }
+
+/* SEJARAH */
+.artikel-sejarah{
+  margin: 2% 10%;
+}
+.sertif-container{
+  margin:5%;
+}
