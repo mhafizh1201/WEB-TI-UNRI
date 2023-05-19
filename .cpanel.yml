@@ -2,6 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/n1574345/public_html/teknikinformatikaunri.xyz
+    - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
     - /bin/cp pageAkreditasi.html $DEPLOYPATH
