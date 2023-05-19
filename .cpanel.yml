@@ -4,9 +4,19 @@ deployment:
     - export DEPLOYPATH=/home/n1574345/public_html/teknikinformatikaunri.xyz
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
-    - /bin/cp -R assets $DEPLOYPATH
-    - /bin/cp kontak-page.html $DEPLOYPATH
-    - /bin/cp photo-page.html $DEPLOYPATH
-    - /bin/cp post-page.html $DEPLOYPATH
-    - /bin/cp video-page.html $DEPLOYPATH
-    - /bin/cp vr-page.html $DEPLOYPATH
+    - /bin/cp pageAkreditasi.html $DEPLOYPATH
+    - /bin/cp pageBerita.html $DEPLOYPATH
+    - /bin/cp pageDosen.html $DEPLOYPATH
+    - /bin/cp pageDosen.html $DEPLOYPATH
+    - /bin/cp pageKegiatan.html $DEPLOYPATH
+    - /bin/cp pageKontak.html $DEPLOYPATH
+    - /bin/cp pageKurikulum.html $DEPLOYPATH
+    - /bin/cp pagePhoto.html $DEPLOYPATH
+    - /bin/cp pagePost.html $DEPLOYPATH
+    - /bin/cp pageSasaran.html $DEPLOYPATH
+    - /bin/cp pageSejarah.html $DEPLOYPATH
+    - /bin/cp pageStrategi.html $DEPLOYPATH
+    - /bin/cp pageTujuan.html $DEPLOYPATH
+    - /bin/cp pageVideo.html $DEPLOYPATH
+    - /bin/cp pageVirtualreality.html $DEPLOYPATH
+    - /bin/cp pageVisimisi.html $DEPLOYPATH
