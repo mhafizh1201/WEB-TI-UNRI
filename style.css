@@ -9,13 +9,20 @@
 }
 /* NAVBAR 1 */
 .first-navbar {
+  padding-top: 20px ;
   background-color: #012946 !important;
   height: 35px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .text-nav-1 {
-  color: #f9a11b !important;
+  color: #19A7CE !important;
   font-weight: 600;
+  transition: all .45s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .text-nav-1:hover {
   color: #fff !important;
@@ -23,6 +30,9 @@
 .item-navbar-1 {
   margin-left: 980px;
   font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* NAVBAR 1 */
 
@@ -31,15 +41,17 @@
   margin-left: 700px;
 }
 .second-navbar {
+  padding-top: 20px;
   background-color: #073c64 !important;
   position: sticky;
 }
 .text-nav-2 {
-  color: white !important;
+  color: #fff !important;
   font-weight: 600;
+  transition: all .45s ease;
 }
 .text-nav-2:hover {
-  color: #f9a11b !important;
+  color: #19A7CE !important;
 }
 .dropdown {
   position: relative;
@@ -56,12 +68,17 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
-  transition: 35s;
 }
 /* NAVBAR 2 */
 
 /* HERO SECTION */
 .container-hero {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-image: url("assets/bg-gedung-teknik2.png");
+  background-size: cover;
+  background-position: bottom ;
   position: relative;
   text-align: left;
   color: white;
@@ -80,9 +97,6 @@
 }
 .nav-active {
   color: #fff;
-}
-.gambar-jb {
-  width: 100%;
 }
 /* HERO SECTION */
 
@@ -289,37 +303,132 @@ div.desc {
 
 /* FOOTER */
 footer {
-  background-color: black;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+  background: #012946;
   margin-top: 2%;
-}
-.col-3 {
-  padding: 2%;
-}
+  font-weight: 500;
+  display: flex;
+  /* position: relative; */
+  color: #19A7CE;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
 
-.title-footer {
-  color: #979797;
-  text-align: start;
 }
-.title-footer h3 {
-  font-size: 1vw;
+.row{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 30px 0 30px;
+}
+.col{
+  flex-basis: 25%;
+  padding: 10px;
+}
+.col:nth-child(2), col:nth-child(3){
+  flex-basis: 15%;
+}
+.col h3{
+  width: 200px;
+  margin-bottom:30px;
+  position: relative;
+  font-size: 17px;
+  font-weight: bold;
+}
+.col p{
   color: #fff;
 }
-.title-footer a {
-  text-decoration: none;
-  color: #979797;
+.container-logo-footer{
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height:300px;
+  width: 300px;
+  background-color: #19A7CE;
 }
-.title-footer a:hover {
+.img-logo-footer{
+  padding: 10px;
+  width: 80%;
+}
+.email-id{
+  width: fit-content;
+  border-bottom: 1px solid #ccc;
+  margin: 20px 0;
+}
+ul li{
+  list-style: none;
+  margin-bottom: 12px;
+}
+ul li a{
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
+}
+.underline{
+  margin-top: 9px;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  border-radius: 3px;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  overflow: hidden;
+}
+.underline span{
+  width: 15px;
+  height: 100%;
+  background:#19A7CE;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 2s linear infinite;
+}
+
+@keyframes moving{
+  0%{
+    left: -20px;
+  }
+  100%{
+    left: 100%;
+  }
+}
+
+.social-icons .fab{
+  width: 40px;
+  height: 40px;
+  border-radius:50% ;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #fff;
+  background: #19A7CE;
+  margin-right: 15px;
+  cursor: pointer;
+  margin-top: 50px;
+  transition: all .45s ease;
+}
+.social-icons .fab:hover{
+  background: #fff;
+  color: #19A7CE;
 }
 /* FOOTER */
 
 /* COPYRIGHT */
 .container-copyright {
+  width: 100%;
   font-size: 1svw;
   padding: 1% 10%;
-  color: #c0c0c0;
-  background-color: #1e1c1c;
+  color: #ccc;
+  background-color: #073c64 !important;
+  text-align: center;
 }
 /* COPYRIGHT */
 
@@ -439,10 +548,50 @@ footer {
   border-radius: 5%;
 }
 
-/* SEJARAH */
+/* SEJARAH PAGE*/
 .artikel-sejarah{
   margin: 2% 10%;
 }
 .sertif-container{
   margin:5%;
+}
+
+/* KURIKULUM PAGE */
+.container-page-download{
+  padding: 50px;
+}
+.container-page-download p{
+  margin-top: 20px;
+  font-weight: bold;
+}
+.container-page-download p a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  transition: all .45s ease;
+}
+.container-page-download p a:hover{
+  color: #19A7CE;
+}
+.kurikulum-page{
+  border: 5px black;
+  border-style: solid ;
+}
+
+/* MIKROTIK AKADEMI PAGE */
+.container-logo-mikrotik-academy{
+  padding-top: 60px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.container-logo-mikrotik-academy img{
+  border: 5px black;
+  border-style:solid ;
+}
+.logo-mikrotik-academy{
+  width: auto;
+}
+.mikrotik-page{
+  padding: 20px;
 }
