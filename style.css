@@ -11,29 +11,25 @@
 .first-navbar {
   background-color: #012946 !important;
   height: 35px;
-  display: flex;
-  
 }
 .text-nav-1 {
   color: #f9a11b !important;
-  font-weight: 600;
+  font-weight: 500;
 }
 .text-nav-1:hover {
   color: #fff !important;
 }
 .item-navbar-1 {
-  font-size: 13px;
-  
+  font-size: 13px; 
 }
-
 /* end navbar 1 */
 
 /* NAVBAR 2 */
-.item-navbar-2 {
-}
 .second-navbar {
   background-color: #073c64 !important;
+  /* background-image: linear-gradient(#012946, #093b5c); */
   position: sticky;
+  
 }
 .text-nav-2 {
   color: white !important;
@@ -48,12 +44,12 @@
 }
 .dropdown-content {
   padding-top: 10px;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 10px;
   margin-top: 20%;
   display: none;
   position: absolute;
   background-color: #0c1822;
-  min-width: 250px;
+  min-width: 260%;
 }
 .dropdown-lab{
   margin-top: 0%;
@@ -110,6 +106,7 @@
 .horizontal-line{
   padding: 0%;
   margin: 0%;
+  color: #555555;
 }
 
 /* NAVBAR 2 */
@@ -152,7 +149,7 @@
   position: absolute;
   bottom: 0px;
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, 100%);
 }
 .card {
   display: inline-block;
@@ -184,7 +181,6 @@
   background-color: #093b5c;
   height: 30%;
   position: relative;
-  z-index: -1;
 }
 .image-model {
   position: absolute;
@@ -216,17 +212,18 @@
 .text-about {
   font-weight: medium;
 }
-.tombol-about a {
+.tombol-brosur a {
   font-size: 1vw;
   padding: 0.5em 2em;
   border: transparent;
   background: dodgerblue;
-  color: white;
   border-radius: 4px;
+  
+  color: white;
+  
   text-decoration: none;
   font-weight: bold;
 }
-
 .button-about:hover {
   background: rgb(2, 0, 36);
   background: linear-gradient(90deg, rgba(30, 144, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
@@ -238,7 +235,7 @@
  
   .card-jb {
     flex-direction: column;
-    margin: 2% 0% 0% 0%;
+    margin: 8% 0% 0% 0%;
   }
   .card-absolt {
     position: relative;
