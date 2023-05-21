@@ -5,6 +5,7 @@ deployment:
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp script.js $DEPLOYPATH
     - /bin/cp pageAkreditasi.html $DEPLOYPATH
     - /bin/cp pageBerita.html $DEPLOYPATH
     - /bin/cp pageDosen.html $DEPLOYPATH
