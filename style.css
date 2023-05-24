@@ -20,50 +20,54 @@
   color: #fff !important;
 }
 .item-navbar-1 {
-  font-size: 13px; 
+  font-size: 13px;
 }
 /* end navbar 1 */
 
-/* NAVBAR 2 */
+/* start navbar 2 */
 .second-navbar {
   background-color: #073c64 !important;
   /* background-image: linear-gradient(#012946, #093b5c); */
   position: sticky;
+  margin-bottom: 0px;
   
 }
 .text-nav-2 {
   color: white !important;
   font-weight: 600;
+  padding-bottom: 0px;
 }
 .text-nav-2:hover {
   color: #f9a11b !important;
 }
-.dropdown {
+
+li.nav-item.dropdown {
   position: relative;
   display: inline-block;
+  
 }
 .dropdown-content {
   padding-top: 10px;
   border-radius: 10px;
-  margin-top: 20%;
   display: none;
   position: absolute;
   background-color: #0c1822;
   min-width: 260%;
+  
 }
-.dropdown-lab{
+.dropdown-lab {
   margin-top: 0%;
   display: none;
   position: absolute;
   background-color: #20313f;
   border-radius: 0px 0px 10px 10px;
-  min-width: 250px;
-  transform: translate(0%,-5%);
+  min-width: 220px;
+  transform: translate(0%, -5%);
   z-index: -1;
+  
 }
 .dropdown:hover .dropdown-content {
   display: block;
-  transition: 35s;
 }
 .container-labdropdown:hover .dropdown-lab {
   display: block;
@@ -77,24 +81,35 @@
     display: inline-block;
     color: #ffffff;
   }
+ .text-jb{
+    font-size: 150%;
+  }
+  .banner-jb p {
+    font-size: 80%;
+    width: 50vw;
+  }
 }
 @media (min-width: 800px) {
   .navMobile {
     display: none;
   }
+ 
 }
-/* style for hamburger */
+/*  start hamburger */
 .navMobile {
   overflow: hidden;
   background-color: #333;
   position: relative;
   border-radius: 0px 0px 15px 15px;
+  width: 100%;
+  margin-top: 1%;
 }
 .navMobile #myLinks {
   display: none;
 }
 .navMobile a {
   padding: 7px 16px;
+  font-weight: 200;
 }
 .navMobile a:hover {
   color: black;
@@ -103,13 +118,14 @@
   display: none;
   padding-left: 15px;
 }
-.horizontal-line{
+.horizontal-line {
   padding: 0%;
   margin: 0%;
   color: #555555;
-}
 
-/* NAVBAR 2 */
+}
+/* end hamburger */
+/* end navbar 2 */
 
 /* HERO SECTION */
 .container-hero {
@@ -135,6 +151,7 @@
 .gambar-jb {
   width: 100%;
 }
+
 /* HERO SECTION */
 
 /* CARD */
@@ -161,8 +178,10 @@
 }
 
 .card-img-top {
-  max-width: 20%;
-  max-height: 7 0%;
+  width: 50px;
+  height: 50px;
+  /* max-height: 70%;
+  min-height: 40; */
   margin: auto;
   display: block;
 }
@@ -218,9 +237,9 @@
   border: transparent;
   background: dodgerblue;
   border-radius: 4px;
-  
+
   color: white;
-  
+
   text-decoration: none;
   font-weight: bold;
 }
@@ -228,11 +247,10 @@
   background: rgb(2, 0, 36);
   background: linear-gradient(90deg, rgba(30, 144, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
 }
-.second-navbar a.icon{
+.second-navbar a.icon {
   display: none;
 }
 @media (max-width: 800px) {
- 
   .card-jb {
     flex-direction: column;
     margin: 8% 0% 0% 0%;
@@ -243,7 +261,7 @@
   }
   .banner-jb {
     position: absolute;
-    top: 15%;
+    top: 35%;
     font-size: 10px;
     text-align: left;
   }
@@ -292,19 +310,42 @@ div.gallery:hover {
 div.gallery img {
   width: 100%;
   height: auto;
-  border-radius: 30px;
+  border-radius: 15%;
 }
+div.gallery-forsidebar img {
+  width: 100%;
+  height: auto;
+  border-radius: 15% ;
+}
+.judul-event{
+  margin-top:8%;
+}
+div.desc { 
+}
+.desc-forsidebar {
+  margin-left: 25%;
 
-div.desc {
-  padding: 15px;
+}
+.judul-sidebar{
+  margin-bottom: 0%;
+}
+.isi-sidebar{
+  font-size: 0.7vw;
 }
 .responsive {
-  padding: 0 20px;
+  padding: 0 15px;
   float: left;
-  width: 24.99999%;
+  width: 33%;
 }
-.section-artikel {
-  margin: 0% 10%;
+.section-event {
+  text-align: left;
+  margin: 0% 0% 0% 3%;
+}
+.section-berita{
+  text-align: left;
+}
+.section-posterMahasiwa{
+  text-align: left;
 }
 @media only screen and (max-width: 700px) {
   .responsive {

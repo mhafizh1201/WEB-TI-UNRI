@@ -40,7 +40,7 @@
 
       <!-- start navbar 2 -->
       <nav class="navbar sticky-top navbar-expand-lg second-navbar">
-        <div class="container-fluid ms-3" >
+        <div class="container-fluid ms-3">
           <div class="dflex flex-grow-1">
             <a class="navbar-brand" href="index.html">
               <img class="img-brand" src="assets/logo-brand.png" alt="UNRI" width="128" height="38" />
@@ -51,44 +51,59 @@
               <li class="nav-item">
                 <a class="text-nav-2 nav-link nav-active" aria-current="page" href="index.html">Beranda</a>
               </li>
-              <li class="nav-item">
-                <div class="dropdown">
-                  <a class="text-nav-2 nav-link">Profil</a>
-                  <div class="dropdown-content drop-menu">
-                    <a class="text-nav-2 nav-link" href="pageSejarah.html">Sejarah</a>
+              <li class="nav-item dropdown">
+                <a class="text-nav-2 nav-link">Profil</a>
+                <div class="dropdown-content" style="width: 220px">
+                  <a class="text-nav-2 nav-link" href="pageSejarah.html">Sejarah</a>
+                  <hr class="horizontal-line" />
+                  <a class="text-nav-2 nav-link" href="pageVisimisi.html">Visi dan Misi</a>
+                  <hr class="horizontal-line" />
+                  <a class="text-nav-2 nav-link" href="pageTujuan.html">Tujuan</a>
+                  <hr class="horizontal-line" />
+                  <a class="text-nav-2 nav-link" href="pageSasaran.html">Sasaran</a>
+                  <hr class="horizontal-line" />
+                  <a class="text-nav-2 nav-link" href="pageStrategi.html">Strategi</a>
+                  <hr class="horizontal-line" />
+                  <a class="text-nav-2 nav-link" href="pageAkreditasi.html">Akreditasi</a>
+                  <hr class="horizontal-line" />
+                  <a class="text-nav-2 nav-link" href="pageDosen.html">Dosen</a>
+                  <hr class="horizontal-line" />
+                  <a class="text-nav-2 nav-link" href="pageTKependidikan.html">Tenaga Kependidikan</a>
+                  <hr class="horizontal-line" />
+                  <div class="container-labdropdown">
+                    <a class="text-nav-2 nav-link" href="">Laboratorium</a>
                     <hr class="horizontal-line" />
-                    <a class="text-nav-2 nav-link" href="pageVisimisi.html">Visi dan Misi</a>
-                    <hr class="horizontal-line" />
-                    <a class="text-nav-2 nav-link" href="pageTujuan.html">Tujuan</a>
-                    <hr class="horizontal-line" />
-                    <a class="text-nav-2 nav-link" href="pageSasaran.html">Sasaran</a>
-                    <hr class="horizontal-line" />
-                    <a class="text-nav-2 nav-link" href="pageStrategi.html">Strategi</a>
-                    <hr class="horizontal-line" />
-                    <a class="text-nav-2 nav-link" href="pageAkreditasi.html">Akreditasi</a>
-                    <hr class="horizontal-line" />
-                    <a class="text-nav-2 nav-link" href="pageDosen.html">Dosen</a>
-                    <hr class="horizontal-line" />
-                    <a class="text-nav-2 nav-link" href="pageTKependidikan.html">Tenaga Kependidikan</a>
-                    <hr class="horizontal-line" />
-                    <div class="container-labdropdown">
-                      <a class="text-nav-2 nav-link" href="">Laboratorium</a>
+                    <div class="dropdown-lab drop-menu">
+                      <a class="text-nav-2 nav-link" href="pageLabrpl.html">Lab. Perangkat Lunak</a>
                       <hr class="horizontal-line" />
-                      <div class="dropdown-lab drop-menu">
-                        <a class="text-nav-2 nav-link" href="pageLabrpl.html">Lab. Perangkat Lunak</a>
-                        <hr class="horizontal-line" />
-                        <a class="text-nav-2 nav-link" href="pageLabjarkom.html">Lab. Komputer dan Jaringan</a>
-                        <hr class="horizontal-line" />
-                      </div>
+                      <a class="text-nav-2 nav-link" href="pageLabjarkom.html">Lab. Komputer dan Jaringan</a>
+                      <hr class="horizontal-line" />
                     </div>
                   </div>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="text-nav-2 nav-link" href="#">Akademik</a>
+                <div class="dropdown">
+                  <a class="text-nav-2 nav-link">Akademik</a>
+                  <div class="dropdown-content">
+                    <a class="text-nav-2 nav-link" href="pageKurikulum.html">Kurikulum</a>
+                    <hr class="horizontal-line" />
+                    <a class="text-nav-2 nav-link" href="pageJadwalKuliah.html">Jadwal Kuliah</a>
+                    <hr class="horizontal-line" />
+                    <a class="text-nav-2 nav-link" href="pageKalenderAkademik.html">Kalender Akademik</a>
+                    <hr class="horizontal-line" />
+                  </div>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="text-nav-2 nav-link" href="#">Sertifikasi</a>
+                <div class="dropdown">
+                  <a class="text-nav-2 nav-link" href="#">Sertifikasi</a>
+                  <div class="dropdown-content">
+                    <a class="text-nav-2 nav-link" href="pageBNSP.html">BNSP</a>
+                    <hr class="horizontal-line" />
+                    <a class="text-nav-2 nav-link" href="pageMikrotikAcademy.html">Mikrotik academy</a>
+                  </div>
+                </div>
               </li>
               <li class="nav-item">
                 <div class="dropdown">
@@ -114,62 +129,75 @@
           </a>
           <!-- end humbuger icon -->
         </div>
-      </nav>
-      <!-- end navbar 2 -->
-
-      <!-- start dropdown for mobile hambuger menu -->
-      <div class="navMobile">
-        <div id="myLinks">
-          <a href="#" class="text-nav-2 nav-link">Beranda</a>
-          <hr class="horizontal-line" />
-          <div class="contdropdown-humbuger-1">
-            <a href="#" class="text-nav-2 nav-link" onclick="hamProfilDropdown()">Profil</a>
+        <!-- start dropdown for mobile hambuger menu -->
+        <div class="navMobile">
+          <div id="myLinks">
+            <a href="#" class="text-nav-2 nav-link">Beranda</a>
             <hr class="horizontal-line" />
-            <div id="forProfil" class="linkdropdown-hambuger">
-              <a href="pageSejarah.html" class="text-nav-2 nav-link">Sejarah</a>
+            <div class="contdropdown-humbuger-1">
+              <a href="#" class="text-nav-2 nav-link" onclick="hamProfilDropdown()">Profil</a>
               <hr class="horizontal-line" />
-              <a href="pageVisimisi.html" class="text-nav-2 nav-link">Visi dan Misi</a>
-              <hr class="horizontal-line" />
-              <a href="pageTujuan.html" class="text-nav-2 nav-link">Tujuan</a>
-              <hr class="horizontal-line" />
-              <a href="pageSasaran.html" class="text-nav-2 nav-link">Sasaran</a>
-              <hr class="horizontal-line" />
-              <a href="pageStrategi.html" class="text-nav-2 nav-link">Strategi</a>
-              <hr class="horizontal-line" />
-              <a href="pageAkreditasi.html" class="text-nav-2 nav-link">akreditasi</a>
-              <hr class="horizontal-line" />
-              <a href="pageDosen.html" class="text-nav-2 nav-link">Dosen</a>
-              <hr class="horizontal-line" />
-              <a href="pageTKependidikan.html" class="text-nav-2 nav-link">Tenaga Kependidikan</a>
-              <hr class="horizontal-line" />
-              <a href="#" class="text-nav-2 nav-link" onclick="LabDropdown()">Laboratorium</a>
-              <hr class="horizontal-line" />
-              <div id="forLab" class="linkdropdown-hambuger">
-                <a href="pageLabrpl.html" class="text-nav-2 nav-link">Lab. Rekayasa Perangkat Lunak</a>
+              <div id="forProfil" class="linkdropdown-hambuger">
+                <a href="pageSejarah.html" class="text-nav-2 nav-link">Sejarah</a>
                 <hr class="horizontal-line" />
-                <a href="pageLabjarkom.html" class="text-nav-2 nav-link">Lab. Komputer dan jaringan</a>
+                <a href="pageVisimisi.html" class="text-nav-2 nav-link">Visi dan Misi</a>
+                <hr class="horizontal-line" />
+                <a href="pageTujuan.html" class="text-nav-2 nav-link">Tujuan</a>
+                <hr class="horizontal-line" />
+                <a href="pageSasaran.html" class="text-nav-2 nav-link">Sasaran</a>
+                <hr class="horizontal-line" />
+                <a href="pageStrategi.html" class="text-nav-2 nav-link">Strategi</a>
+                <hr class="horizontal-line" />
+                <a href="pageAkreditasi.html" class="text-nav-2 nav-link">akreditasi</a>
+                <hr class="horizontal-line" />
+                <a href="pageDosen.html" class="text-nav-2 nav-link">Dosen</a>
+                <hr class="horizontal-line" />
+                <a href="pageTKependidikan.html" class="text-nav-2 nav-link">Tenaga Kependidikan</a>
+                <hr class="horizontal-line" />
+                <a href="#" class="text-nav-2 nav-link" onclick="LabDropdown()">Laboratorium</a>
+                <hr class="horizontal-line" />
+                <div id="forLab" class="linkdropdown-hambuger">
+                  <a href="pageLabrpl.html" class="text-nav-2 nav-link">Lab. Rekayasa Perangkat Lunak</a>
+                  <hr class="horizontal-line" />
+                  <a href="pageLabjarkom.html" class="text-nav-2 nav-link">Lab. Komputer dan jaringan</a>
+                  <hr class="horizontal-line" />
+                </div>
+              </div>
+              <a href="#" class="text-nav-2 nav-link" onclick="hamAkademikDropdown()">Akademik</a>
+              <hr class="horizontal-line" />
+              <div id="forAkademik" class="linkdropdown-hambuger">
+                <a href="pageKurikulum.html" class="text-nav-2 nav-link">Kurikulum</a>
+                <hr class="horizontal-line" />
+                <a href="pageJadwalKuliah.html" class="text-nav-2 nav-link">jadwal Kuliah</a>
+                <hr class="horizontal-line" />
+                <a href="pageKalenderAkademik.html" class="text-nav-2 nav-link">Kalender Akademik</a>
+              </div>
+              <hr class="horizontal-line" />
+              <a href="#" class="text-nav-2 nav-link" onclick="hamSertifikasiDropdown()">Sertifikasi</a>
+              <hr class="horizontal-line" />
+              <div id="forSertifikasi" class="linkdropdown-hambuger">
+                <a href="pageBNSP.html" class="text-nav-2 nav-link">BNSP</a>
+                <hr class="horizontal-line" />
+                <a href="pageMikrotikAcademy.html" class="text-nav-2 nav-link">Mikrotik Academy</a>
+              </div>
+              <hr class="horizontal-line" />
+              <a href="#" class="text-nav-2 nav-link" onclick="hamGaleryDropdown()">Galeri</a>
+              <hr class="horizontal-line" />
+              <div id="forGalery" class="linkdropdown-hambuger">
+                <a href="pagePhoto.html" class="text-nav-2 nav-link">Photo</a>
+                <hr class="horizontal-line" />
+                <a href="pageVideo.html" class="text-nav-2 nav-link">Video</a>
+                <hr class="horizontal-line" />
+                <a href="pageVirtualreality.html" class="text-nav-2 nav-link">Vidoe Tour</a>
                 <hr class="horizontal-line" />
               </div>
+              <a href="pageKontak.html" class="text-nav-2 nav-link">Kontak</a>
             </div>
-            <a href="#" class="text-nav-2 nav-link">Akademik</a>
-            <hr class="horizontal-line" />
-            <a href="#" class="text-nav-2 nav-link">Sertifikasi</a>
-            <hr class="horizontal-line" />
-            <a href="#" class="text-nav-2 nav-link" onclick="hamGaleryDropdown()">Galeri</a>
-            <hr class="horizontal-line" />
-            <div id="forGalery" class="linkdropdown-hambuger">
-              <a href="pagePhoto.html" class="text-nav-2 nav-link">Photo</a>
-              <hr class="horizontal-line" />
-              <a href="pageVideo.html" class="text-nav-2 nav-link">Video</a>
-              <hr class="horizontal-line" />
-              <a href="pageVirtualreality.html" class="text-nav-2 nav-link">Vidoe Tour</a>
-              <hr class="horizontal-line" />
-            </div>
-            <a href="pageKontak.html" class="text-nav-2 nav-link">Kontak</a>
           </div>
         </div>
-      </div>
-      <!-- end dropdown for ,obile hambuger menu -->
+        <!-- end dropdown for ,obile hambuger menu -->
+      </nav>
+      <!-- end navbar 2 -->
     </header>
 
     <main>
@@ -238,48 +266,126 @@
       </section>
 
       <section>
-        <!-- articles section -->
-        <div class="section-artikel">
-          <p class="title-tentang">ARTIKEL</p>
-          <div class="responsive">
-            <div class="gallery shadow-lg">
-              <a href="post-page.html">
-                <img src="assets/artikel-01.png" alt=".." width="600px" height="400px" />
-              </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-8">
+              <div class="section-event">
+                <p class="title-tentang" style="margin-left: 3%;">Event Prodi Teknik Informatika</p>
+                <div class="responsive">
+                  <div class="gallery shadow-lg">
+                    <a href="post-page.html">
+                      <img src="assets/artikel-01.png" alt=".." width="600px" height="400px" />
+                    </a>
+                  </div>
+                  <div class="judul-event">Judul Artikel [EVENT]</div>
+                  <div class="desc">Add a description of the image here</div>
+                </div>
+                <div class="responsive">
+                  <div class="gallery shadow-lg">
+                    <a target="_blank" href="#">
+                      <img src="assets/artikel-02.png" alt=".." width="600px" height="400px" />
+                    </a>
+                  </div>
+                  <div class="judul-event">Judul Artikel [EVENT]</div>
+                  <div class="desc">Add a description of the image here</div>
+                </div>
+                <!-- <div class="responsive">
+                  <div class="gallery shadow-lg">
+                    <a target="_blank" href="#">
+                      <img src="assets/artikel-03.png" alt="..." width="600px" height="400px" />
+                    </a>
+                  </div>
+                  <div class="desc">Add a description of the image here</div>
+                </div> -->
+                <div class="responsive">
+                  <div class="gallery shadow-lg">
+                    <a target="_blank" href="#">
+                      <img src="assets/artikel-04.png" alt="..." width="600px" height="400px" />
+                    </a>
+                  </div>
+                  <div class="judul-event">Judul Artikel [EVENT]</div>
+                  <div class="desc">Add a description of the image here</div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
             </div>
-            <div class="desc">Add a description of the image here</div>
-          </div>
-
-          <div class="responsive">
-            <div class="gallery shadow-lg">
-              <a target="_blank" href="#">
-                <img src="assets/artikel-02.png" alt=".." width="600px" height="400px" />
-              </a>
+            <div class="col-4">
+              <div class="row">
+                <div class="section-berita">
+                  <p class="title-tentang">Berita Terbaru</p>
+                  <div class="container-sidebar">
+                    <div class="gallery-forsidebar">
+                      <a href="post-page.html">
+                        <img  src="assets/artikel-01.png" alt=".."  style="float:left; width:5vw;height:5vw;"/>
+                      </a>
+                    </div>
+                    <div class="desc-forsidebar">
+                      <p class="judul-sidebar">
+                        Judul Artikel [Berita]</p>
+                      <p class="isi-sidebar">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, labore!<br>
+                        <a href="#">Baca selengkapnya</a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="container-sidebar">
+                    <div class="gallery-forsidebar">
+                      <a href="post-page.html">
+                        <img  src="assets/artikel-01.png" alt=".."  style="float:left; width:5vw;height:5vw;"/>
+                      </a>
+                    </div>
+                    <div class="desc-forsidebar">
+                      <p class="judul-sidebar">
+                        Judul Artikel [Berita]</p>
+                      <p class="isi-sidebar">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, labore!<br>
+                        <a href="#">Baca selengkapnya</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="section-posterMahasiwa">
+                  <p class="title-tentang">Poster Mahasiwa</p>
+                  <div class="container-sidebar">
+                    <div class="gallery-forsidebar">
+                      <a href="post-page.html">
+                        <img  src="assets/artikel-01.png" alt=".."  style="float:left; width:5vw;height:5vw;"/>
+                      </a>
+                    </div>
+                    <div class="desc-forsidebar">
+                      <p class="judul-sidebar">
+                        Judul Artikel [Berita]</p>
+                      <p class="isi-sidebar">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, labore!<br>
+                        <a href="#">Baca selengkapnya</a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="container-sidebar">
+                    <div class="gallery-forsidebar">
+                      <a href="post-page.html">
+                        <img  src="assets/artikel-01.png" alt=".."  style="float:left; width:5vw;height:5vw;"/>
+                      </a>
+                    </div>
+                    <div class="desc-forsidebar">
+                      <p class="judul-sidebar">
+                        Judul Artikel [Berita]</p>
+                      <p class="isi-sidebar">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, labore!<br>
+                        <a href="#">Baca selengkapnya</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="desc">Add a description of the image here</div>
           </div>
-
-          <div class="responsive">
-            <div class="gallery shadow-lg">
-              <a target="_blank" href="#">
-                <img src="assets/artikel-03.png" alt="..." width="600px" height="400px" />
-              </a>
-            </div>
-            <div class="desc">Add a description of the image here</div>
-          </div>
-
-          <div class="responsive">
-            <div class="gallery shadow-lg">
-              <a target="_blank" href="#">
-                <img src="assets/artikel-04.png" alt="..." width="600px" height="400px" />
-              </a>
-            </div>
-            <div class="desc">Add a description of the image here</div>
-          </div>
-          <div class="clearfix"></div>
         </div>
-      </section>
-
+        <!-- articles section -->
+   
+       
       <section>
         <!-- kemitraan section -->
         <p class="title-tentang title-kemitraan">KEMITRAAN</p>

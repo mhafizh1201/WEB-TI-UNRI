@@ -14,6 +14,22 @@ function hamProfilDropdown() {
       y.style.display = "block";
     }
 }
+function hamAkademikDropdown() {
+  var y = document.getElementById("forAkademik");
+  if (y.style.display === "block") {
+    y.style.display = "none";
+  } else {
+    y.style.display = "block";
+  }
+}
+function hamSertifikasiDropdown() {
+  var y = document.getElementById("forSertifikasi");
+  if (y.style.display === "block") {
+    y.style.display = "none";
+  } else {
+    y.style.display = "block";
+  }
+}
 function hamGaleryDropdown() {
     var y = document.getElementById("forGalery");
     if (y.style.display === "block") {
