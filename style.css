@@ -7,18 +7,19 @@
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
 }
-/* NAVBAR 1 */
+/* star navbar 1 */
 .first-navbar {
   padding-top: 20px ;
   background-color: #012946 !important;
   height: 35px;
+  
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .text-nav-1 {
   color: #19A7CE !important;
-  font-weight: 600;
+  font-weight: 500;
   transition: all .45s ease;
   display: flex;
   justify-content: center;
@@ -28,48 +29,117 @@
   color: #fff !important;
 }
 .item-navbar-1 {
-  margin-left: 980px;
   font-size: 13px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* NAVBAR 1 */
+/* end navbar 1 */
 
-/* NAVBAR 2 */
-.item-navbar-2 {
-  margin-left: 700px;
-}
+/* start navbar 2 */
 .second-navbar {
   padding-top: 20px;
   background-color: #073c64 !important;
+  /* background-image: linear-gradient(#012946, #093b5c); */
   position: sticky;
+  margin-bottom: 0px;
+  
 }
 .text-nav-2 {
   color: #fff !important;
   font-weight: 600;
   transition: all .45s ease;
+  padding-bottom: 0px;
 }
 .text-nav-2:hover {
   color: #19A7CE !important;
 }
-.dropdown {
+
+li.nav-item.dropdown {
   position: relative;
   display: inline-block;
+  
 }
-
 .dropdown-content {
+  padding-top: 10px;
+  border-radius: 10px;
   display: none;
   position: absolute;
-  background-color: #093b5c;
-  min-width: 140px;
-  z-index: 1;
+  background-color: #0c1822;
+  min-width: 260%;
+  
 }
-
+.dropdown-lab {
+  margin-top: 0%;
+  display: none;
+  position: absolute;
+  background-color: #20313f;
+  border-radius: 0px 0px 10px 10px;
+  min-width: 220px;
+  transform: translate(0%, -5%);
+  z-index: -1;
+  
+}
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/* NAVBAR 2 */
+.container-labdropdown:hover .dropdown-lab {
+  display: block;
+  transition: 35s;
+}
+.hambuger-icon {
+  display: none;
+}
+@media (max-width: 800px) {
+  .hambuger-icon {
+    display: inline-block;
+    color: #ffffff;
+  }
+ .text-jb{
+    font-size: 150%;
+  }
+  .banner-jb p {
+    font-size: 80%;
+    width: 50vw;
+  }
+}
+@media (min-width: 800px) {
+  .navMobile {
+    display: none;
+  }
+ 
+}
+/*  start hamburger */
+.navMobile {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  border-radius: 0px 0px 15px 15px;
+  width: 100%;
+  margin-top: 1%;
+}
+.navMobile #myLinks {
+  display: none;
+}
+.navMobile a {
+  padding: 7px 16px;
+  font-weight: 200;
+}
+.navMobile a:hover {
+  color: black;
+}
+.linkdropdown-hambuger {
+  display: none;
+  padding-left: 15px;
+}
+.horizontal-line {
+  padding: 0%;
+  margin: 0%;
+  color: #555555;
+
+}
+/* end hamburger */
+/* end navbar 2 */
 
 /* HERO SECTION */
 .container-hero {
@@ -98,6 +168,10 @@
 .nav-active {
   color: #fff;
 }
+.gambar-jb {
+  width: 100%;
+}
+
 /* HERO SECTION */
 
 /* CARD */
@@ -112,7 +186,7 @@
   position: absolute;
   bottom: 0px;
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, 100%);
 }
 .card {
   display: inline-block;
@@ -122,9 +196,12 @@
   z-index: 1;
   width: 18rem;
 }
+
 .card-img-top {
-  max-width: 20%;
-  max-height: 7 0%;
+  width: 50px;
+  height: 50px;
+  /* max-height: 70%;
+  min-height: 40; */
   margin: auto;
   display: block;
 }
@@ -143,7 +220,6 @@
   background-color: #093b5c;
   height: 30%;
   position: relative;
-  z-index: -1;
 }
 .image-model {
   position: absolute;
@@ -175,25 +251,29 @@
 .text-about {
   font-weight: medium;
 }
-.tombol-about a {
+.tombol-brosur a {
   font-size: 1vw;
   padding: 0.5em 2em;
   border: transparent;
   background: dodgerblue;
-  color: white;
   border-radius: 4px;
+
+  color: white;
+
   text-decoration: none;
   font-weight: bold;
 }
-
 .button-about:hover {
   background: rgb(2, 0, 36);
   background: linear-gradient(90deg, rgba(30, 144, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
 }
+.second-navbar a.icon {
+  display: none;
+}
 @media (max-width: 800px) {
   .card-jb {
     flex-direction: column;
-    margin: 2% 0% 0% 0%;
+    margin: 8% 0% 0% 0%;
   }
   .card-absolt {
     position: relative;
@@ -201,7 +281,7 @@
   }
   .banner-jb {
     position: absolute;
-    top: 15%;
+    top: 35%;
     font-size: 10px;
     text-align: left;
   }
@@ -250,19 +330,42 @@ div.gallery:hover {
 div.gallery img {
   width: 100%;
   height: auto;
-  border-radius: 30px;
+  border-radius: 15%;
 }
+div.gallery-forsidebar img {
+  width: 100%;
+  height: auto;
+  border-radius: 15% ;
+}
+.judul-event{
+  margin-top:8%;
+}
+div.desc { 
+}
+.desc-forsidebar {
+  margin-left: 25%;
 
-div.desc {
-  padding: 15px;
+}
+.judul-sidebar{
+  margin-bottom: 0%;
+}
+.isi-sidebar{
+  font-size: 0.7vw;
 }
 .responsive {
-  padding: 0 20px;
+  padding: 0 15px;
   float: left;
-  width: 24.99999%;
+  width: 33%;
 }
-.section-artikel {
-  margin: 0% 10%;
+.section-event {
+  text-align: left;
+  margin: 0% 0% 0% 3%;
+}
+.section-berita{
+  text-align: left;
+}
+.section-posterMahasiwa{
+  text-align: left;
 }
 @media only screen and (max-width: 700px) {
   .responsive {
@@ -442,10 +545,9 @@ ul li a{
   text-align: left;
   color: white;
 }
-.judul-page img{
+.judul-page img {
   width: 100%;
   object-fit: cover;
-  
 }
 
 .img-judul-page {
@@ -533,13 +635,12 @@ ul li a{
   font-size: 2vw;
 }
 .galleryCard {
-  margin:1%;
+  margin: 1%;
   float: left;
   border-radius: 5%;
 }
 .galleryCard:hover {
   transform: scale(1.05);
-  
 }
 .imgBox img {
   width: 100%;
@@ -552,8 +653,8 @@ ul li a{
 .artikel-sejarah{
   margin: 2% 10%;
 }
-.sertif-container{
-  margin:5%;
+.sertif-container {
+  margin: 5%;
 }
 
 /* KURIKULUM PAGE */

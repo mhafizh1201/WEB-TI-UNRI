@@ -6,97 +6,200 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Teknik Informatika UNRI</title>
     <link rel="icon" href="assets/logo-unri.jpg" />
-    <!-- CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
-      crossorigin="anonymous"
-    />
+    <!-- start stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
     <link href="style.css" rel="stylesheet" />
-
+    <!-- end stylesheet -->
     <!-- fontawesome css -->
     <script src="https://kit.fontawesome.com/69e9e8e954.js"></script>
-  
   </head>
   <body>
     <header>
-      <!-- navbar 1 -->
-      <nav class="navbar navbar-expand-lg first-navbar">
-        <div class="hidden-responsif">
-          <div class="container-fluid ms-3 container-nav-1">
-              <ul class="item-navbar-1 navbar-nav me-auto mb-2 mb-lg-0 gap-2">
-                <li class="nav-item">
-                  <a class="text-nav-1 nav-link" href="#">Universitas</a>
-                </li>
-                <li class="nav-item">
-                  <a class="text-nav-1 nav-link" href="#">Fakultas</a>
-                </li>
-                <li class="nav-item">
-                  <a class="text-nav-1 nav-link" href="#">Jurusan</a>
-                </li>
-                <li class="nav-item">
-                  <a class="text-nav-1 nav-link" href="#">Unduh Brosur</a>
-                </li>
-                <li class="nav-item">
-                  <a class="text-nav-1 nav-link" href="#">Pendaftaran</a>
-                </li>
-              </ul>
-          </div>
+      <!-- start navbar 1 -->
+      <nav class="navbar navbar-expand-lg first-navbar text-right ms-auto hidden-responsif">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="item-navbar-1 navbar-nav ms-auto mb-2 mb-lg-0 gap-2">
+            <li class="nav-item">
+              <a class="text-nav-1 nav-link" href="https://unri.ac.id/" target="_blank">Universitas</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-nav-1 nav-link" href="https://ft.unri.ac.id/" target="_blank">Fakultas</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-nav-1 nav-link" href="https://ee.ft.unri.ac.id/" target="_blank">Jurusan</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-nav-1 nav-link" href="https://informatika.ft.unri.ac.id/wp-content/uploads/Brosur-TI-2021.pdf" target="_blank">Unduh Brosur</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-nav-1 nav-link" href="https://pmb.unri.ac.id/ " target="_blank">Pendaftaran</a>
+            </li>
+          </ul>
         </div>
       </nav>
-      <!-- Navbar 2 -->
+      <!-- end navbar 1 -->
+
+      <!-- start navbar 2 -->
       <nav class="navbar sticky-top navbar-expand-lg second-navbar">
         <div class="container-fluid ms-3">
-          <a class="navbar-brand" href="#">
-            <img
-              class="img-brand"
-              src="assets/logo-brand.png"
-              alt="Bootstrap"
-              width="128"
-              height="38"
-            />
-          </a>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="item-navbar-2 navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+          <div class="dflex flex-grow-1">
+            <a class="navbar-brand" href="index.html">
+              <img class="img-brand" src="assets/logo-brand.png" alt="UNRI" width="128" height="38" />
+            </a>
+          </div>
+          <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarSupportedContent ">
+            <ul class="item-navbar-2 navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
               <li class="nav-item">
-                <a
-                  class="text-nav-2 nav-link nav-active"
-                  aria-current="page"
-                  href="index.html"
-                  >Beranda</a
-                >
+                <a class="text-nav-2 nav-link nav-active" aria-current="page" href="index.html">Beranda</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="text-nav-2 nav-link">Profil</a>
+                <div class="dropdown-content" style="width: 220px">
+                  <a class="text-nav-2 nav-link" href="pageSejarah.html">Sejarah</a>
+                  <hr class="horizontal-line" />
+                  <a class="text-nav-2 nav-link" href="pageVisimisi.html">Visi dan Misi</a>
+                  <hr class="horizontal-line" />
+                  <a class="text-nav-2 nav-link" href="pageTujuan.html">Tujuan</a>
+                  <hr class="horizontal-line" />
+                  <a class="text-nav-2 nav-link" href="pageSasaran.html">Sasaran</a>
+                  <hr class="horizontal-line" />
+                  <a class="text-nav-2 nav-link" href="pageStrategi.html">Strategi</a>
+                  <hr class="horizontal-line" />
+                  <a class="text-nav-2 nav-link" href="pageAkreditasi.html">Akreditasi</a>
+                  <hr class="horizontal-line" />
+                  <a class="text-nav-2 nav-link" href="pageDosen.html">Dosen</a>
+                  <hr class="horizontal-line" />
+                  <a class="text-nav-2 nav-link" href="pageTKependidikan.html">Tenaga Kependidikan</a>
+                  <hr class="horizontal-line" />
+                  <div class="container-labdropdown">
+                    <a class="text-nav-2 nav-link" href="">Laboratorium</a>
+                    <hr class="horizontal-line" />
+                    <div class="dropdown-lab drop-menu">
+                      <a class="text-nav-2 nav-link" href="pageLabrpl.html">Lab. Perangkat Lunak</a>
+                      <hr class="horizontal-line" />
+                      <a class="text-nav-2 nav-link" href="pageLabjarkom.html">Lab. Komputer dan Jaringan</a>
+                      <hr class="horizontal-line" />
+                    </div>
+                  </div>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="text-nav-2 nav-link" href="#">Tentang</a>
+                <div class="dropdown">
+                  <a class="text-nav-2 nav-link">Akademik</a>
+                  <div class="dropdown-content">
+                    <a class="text-nav-2 nav-link" href="pageKurikulum.html">Kurikulum</a>
+                    <hr class="horizontal-line" />
+                    <a class="text-nav-2 nav-link" href="pageJadwalKuliah.html">Jadwal Kuliah</a>
+                    <hr class="horizontal-line" />
+                    <a class="text-nav-2 nav-link" href="pageKalenderAkademik.html">Kalender Akademik</a>
+                    <hr class="horizontal-line" />
+                  </div>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="text-nav-2 nav-link" href="#">Akademik</a>
-              </li>
-              <li class="nav-item">
-                <a class="text-nav-2 nav-link" href="#">Sertifikasi</a>
+                <div class="dropdown">
+                  <a class="text-nav-2 nav-link" href="#">Sertifikasi</a>
+                  <div class="dropdown-content">
+                    <a class="text-nav-2 nav-link" href="pageBNSP.html">BNSP</a>
+                    <hr class="horizontal-line" />
+                    <a class="text-nav-2 nav-link" href="pageMikrotikAcademy.html">Mikrotik academy</a>
+                  </div>
+                </div>
               </li>
               <li class="nav-item">
                 <div class="dropdown">
                   <a class="text-nav-2 nav-link">Galeri</a>
+                  <hr class="horizontal-line" />
                   <div class="dropdown-content drop-menu">
-                      <a class="text-nav-2 nav-link" href="#">Foto</a>
-                      <a class="text-nav-2 nav-link" href="video-page.html">Video</a>
-                      <a class="text-nav-2 nav-link" href="vr-page.html"
-                        >Virtual Tour</a
-                      >
+                    <a class="text-nav-2 nav-link" href="pagePhoto.html">Foto</a>
+                    <hr class="horizontal-line" />
+                    <a class="text-nav-2 nav-link" href="pageVideo.html">Video</a>
+                    <hr class="horizontal-line" />
+                    <a class="text-nav-2 nav-link" href="pageVirtualreality.html">Virtual Tour</a>
                   </div>
                 </div>
-                </a>
               </li>
               <li class="nav-item">
-                <a class="text-nav-2 nav-link" href="kontak-page.html"
-                  >Kontak</a>
+                <a class="text-nav-2 nav-link" href="pageKontak.html">Kontak</a>
               </li>
             </ul>
           </div>
+          <!-- start humbuger icon -->
+          <a href="javascript:void(0);" class="hambuger-icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          <!-- end humbuger icon -->
         </div>
+        <!-- start dropdown for mobile hambuger menu -->
+        <div class="navMobile">
+          <div id="myLinks">
+            <a href="#" class="text-nav-2 nav-link">Beranda</a>
+            <hr class="horizontal-line" />
+            <div class="contdropdown-humbuger-1">
+              <a href="#" class="text-nav-2 nav-link" onclick="hamProfilDropdown()">Profil</a>
+              <hr class="horizontal-line" />
+              <div id="forProfil" class="linkdropdown-hambuger">
+                <a href="pageSejarah.html" class="text-nav-2 nav-link">Sejarah</a>
+                <hr class="horizontal-line" />
+                <a href="pageVisimisi.html" class="text-nav-2 nav-link">Visi dan Misi</a>
+                <hr class="horizontal-line" />
+                <a href="pageTujuan.html" class="text-nav-2 nav-link">Tujuan</a>
+                <hr class="horizontal-line" />
+                <a href="pageSasaran.html" class="text-nav-2 nav-link">Sasaran</a>
+                <hr class="horizontal-line" />
+                <a href="pageStrategi.html" class="text-nav-2 nav-link">Strategi</a>
+                <hr class="horizontal-line" />
+                <a href="pageAkreditasi.html" class="text-nav-2 nav-link">akreditasi</a>
+                <hr class="horizontal-line" />
+                <a href="pageDosen.html" class="text-nav-2 nav-link">Dosen</a>
+                <hr class="horizontal-line" />
+                <a href="pageTKependidikan.html" class="text-nav-2 nav-link">Tenaga Kependidikan</a>
+                <hr class="horizontal-line" />
+                <a href="#" class="text-nav-2 nav-link" onclick="LabDropdown()">Laboratorium</a>
+                <hr class="horizontal-line" />
+                <div id="forLab" class="linkdropdown-hambuger">
+                  <a href="pageLabrpl.html" class="text-nav-2 nav-link">Lab. Rekayasa Perangkat Lunak</a>
+                  <hr class="horizontal-line" />
+                  <a href="pageLabjarkom.html" class="text-nav-2 nav-link">Lab. Komputer dan jaringan</a>
+                  <hr class="horizontal-line" />
+                </div>
+              </div>
+              <a href="#" class="text-nav-2 nav-link" onclick="hamAkademikDropdown()">Akademik</a>
+              <hr class="horizontal-line" />
+              <div id="forAkademik" class="linkdropdown-hambuger">
+                <a href="pageKurikulum.html" class="text-nav-2 nav-link">Kurikulum</a>
+                <hr class="horizontal-line" />
+                <a href="pageJadwalKuliah.html" class="text-nav-2 nav-link">jadwal Kuliah</a>
+                <hr class="horizontal-line" />
+                <a href="pageKalenderAkademik.html" class="text-nav-2 nav-link">Kalender Akademik</a>
+              </div>
+              <hr class="horizontal-line" />
+              <a href="#" class="text-nav-2 nav-link" onclick="hamSertifikasiDropdown()">Sertifikasi</a>
+              <hr class="horizontal-line" />
+              <div id="forSertifikasi" class="linkdropdown-hambuger">
+                <a href="pageBNSP.html" class="text-nav-2 nav-link">BNSP</a>
+                <hr class="horizontal-line" />
+                <a href="pageMikrotikAcademy.html" class="text-nav-2 nav-link">Mikrotik Academy</a>
+              </div>
+              <hr class="horizontal-line" />
+              <a href="#" class="text-nav-2 nav-link" onclick="hamGaleryDropdown()">Galeri</a>
+              <hr class="horizontal-line" />
+              <div id="forGalery" class="linkdropdown-hambuger">
+                <a href="pagePhoto.html" class="text-nav-2 nav-link">Photo</a>
+                <hr class="horizontal-line" />
+                <a href="pageVideo.html" class="text-nav-2 nav-link">Video</a>
+                <hr class="horizontal-line" />
+                <a href="pageVirtualreality.html" class="text-nav-2 nav-link">Vidoe Tour</a>
+                <hr class="horizontal-line" />
+              </div>
+              <a href="pageKontak.html" class="text-nav-2 nav-link">Kontak</a>
+            </div>
+          </div>
+        </div>
+        <!-- end dropdown for ,obile hambuger menu -->
       </nav>
+      <!-- end navbar 2 -->
     </header>
 
     <main>
@@ -104,35 +207,21 @@
         <!-- hero section -->
         <div class="container-hero">
           <div class="banner-jb">
-            <h1 class="text-jb">
-              SELAMAT DATANG DI<br />TEKNIK INFORMATIKA UNRI
-            </h1>
-            <p>
-              Program Studi Teknik Informatika merupakan salah satu program
-              studi sarjana<br />yang ada di Universitas Riau yang berada di
-              bawah Jurusan Teknik Elektro Fakultas Teknik.
-            </p>
+            <h1 class="text-jb">SELAMAT DATANG DI<br />TEKNIK INFORMATIKA UNRI</h1>
+            <p>Program Studi Teknik Informatika merupakan salah satu program studi sarjana<br />yang ada di Universitas Riau yang berada di bawah Jurusan Teknik Elektro Fakultas Teknik.</p>
           </div>
         </div>
         <!-- card -->
         <div class="card-absolt">
           <div class="card-jb">
             <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-              <img
-                src="assets/topi-toga.png"
-                class="card-img-top"
-                alt="alumini"
-              />
-              <div class="card-body">
-                <p class="card-text text-center">8.000 ORANG <br />ALUMNI</p>
+              <img src="assets/topi-toga.png" class="card-img-top" alt="alumini" />
+              <div class="card-body d-flex flex-column">
+                <p class="card-text text-center mt-auto">8.000 ORANG <br />ALUMNI</p>
               </div>
             </div>
             <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-              <img
-                src="assets/ilu-student.png"
-                class="card-img-top"
-                alt="..."
-              />
+              <img src="assets/ilu-student.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text text-center">8.000 ORANG<br />MAHASISWA</p>
               </div>
@@ -140,9 +229,7 @@
             <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded">
               <img src="assets/ilu-dosen.png" class="card-img-top" alt="..." />
               <div class="card-body">
-                <p class="card-text text-center">
-                  100 ORANG <br />DOSEN PENGAJAR
-                </p>
+                <p class="card-text text-center">100 ORANG <br />DOSEN PENGAJAR</p>
               </div>
             </div>
             <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded">
@@ -166,15 +253,12 @@
               <div class="text-tentang-ti">
                 <p class="title-tentang">TENTANG <br />TEKNIK INFORMATIKA</p>
                 <p class="text-about">
-                  Program Studi Teknik Informatika merupakan salah satu program
-                  studi sarjana yang ada di Universitas Riau (UNRI). Program
-                  Studi Teknik Informatika berada di bawah Jurusan Teknik
-                  Elektro. Program Studi Teknik Informatika bisa dikatakan
-                  sebagai program studi yang masih muda dibandingkan dengan
-                  Program Studi lain yang ada di Fakultas Teknik.
+                  Program Studi Teknik Informatika merupakan salah satu program studi sarjana yang ada di Universitas Riau (UNRI). Program Studi Teknik Informatika berada di bawah Jurusan Teknik Elektro. Program Studi Teknik Informatika
+                  bisa dikatakan sebagai program studi yang masih muda dibandingkan dengan Program Studi lain yang ada di Fakultas Teknik.
                 </p>
-                <div class="tombol-about">
-                  <a target="_blank" href="#">PROFIL</a>
+
+                <div class="tombol-brosur">
+                  <a target="_blank" href="https://informatika.ft.unri.ac.id/wp-content/uploads/Brosur-TI-2021.pdf">Brosur</a>
                 </div>
               </div>
             </div>
@@ -183,68 +267,126 @@
       </section>
 
       <section>
-        <!-- articles section -->
-        <div class="section-artikel">
-          <p class="title-tentang">ARTIKEL</p>
-          <div class="responsive">
-            <div class="gallery shadow-lg">
-              <a href="post-page.html">
-                <img
-                  src="assets/artikel-01.png"
-                  alt=".."
-                  width="600px"
-                  height="400px"
-                />
-              </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-8">
+              <div class="section-event">
+                <p class="title-tentang" style="margin-left: 3%;">Event Prodi Teknik Informatika</p>
+                <div class="responsive">
+                  <div class="gallery shadow-lg">
+                    <a href="post-page.html">
+                      <img src="assets/artikel-01.png" alt=".." width="600px" height="400px" />
+                    </a>
+                  </div>
+                  <div class="judul-event">Judul Artikel [EVENT]</div>
+                  <div class="desc">Add a description of the image here</div>
+                </div>
+                <div class="responsive">
+                  <div class="gallery shadow-lg">
+                    <a target="_blank" href="#">
+                      <img src="assets/artikel-02.png" alt=".." width="600px" height="400px" />
+                    </a>
+                  </div>
+                  <div class="judul-event">Judul Artikel [EVENT]</div>
+                  <div class="desc">Add a description of the image here</div>
+                </div>
+                <!-- <div class="responsive">
+                  <div class="gallery shadow-lg">
+                    <a target="_blank" href="#">
+                      <img src="assets/artikel-03.png" alt="..." width="600px" height="400px" />
+                    </a>
+                  </div>
+                  <div class="desc">Add a description of the image here</div>
+                </div> -->
+                <div class="responsive">
+                  <div class="gallery shadow-lg">
+                    <a target="_blank" href="#">
+                      <img src="assets/artikel-04.png" alt="..." width="600px" height="400px" />
+                    </a>
+                  </div>
+                  <div class="judul-event">Judul Artikel [EVENT]</div>
+                  <div class="desc">Add a description of the image here</div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
             </div>
-            <div class="desc">Add a description of the image here</div>
-          </div>
-
-          <div class="responsive">
-            <div class="gallery shadow-lg">
-              <a target="_blank" href="#">
-                <img
-                  src="assets/artikel-02.png"
-                  alt=".."
-                  width="600px"
-                  height="400px"
-                />
-              </a>
+            <div class="col-4">
+              <div class="row">
+                <div class="section-berita">
+                  <p class="title-tentang">Berita Terbaru</p>
+                  <div class="container-sidebar">
+                    <div class="gallery-forsidebar">
+                      <a href="post-page.html">
+                        <img  src="assets/artikel-01.png" alt=".."  style="float:left; width:5vw;height:5vw;"/>
+                      </a>
+                    </div>
+                    <div class="desc-forsidebar">
+                      <p class="judul-sidebar">
+                        Judul Artikel [Berita]</p>
+                      <p class="isi-sidebar">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, labore!<br>
+                        <a href="#">Baca selengkapnya</a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="container-sidebar">
+                    <div class="gallery-forsidebar">
+                      <a href="post-page.html">
+                        <img  src="assets/artikel-01.png" alt=".."  style="float:left; width:5vw;height:5vw;"/>
+                      </a>
+                    </div>
+                    <div class="desc-forsidebar">
+                      <p class="judul-sidebar">
+                        Judul Artikel [Berita]</p>
+                      <p class="isi-sidebar">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, labore!<br>
+                        <a href="#">Baca selengkapnya</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="section-posterMahasiwa">
+                  <p class="title-tentang">Poster Mahasiwa</p>
+                  <div class="container-sidebar">
+                    <div class="gallery-forsidebar">
+                      <a href="post-page.html">
+                        <img  src="assets/artikel-01.png" alt=".."  style="float:left; width:5vw;height:5vw;"/>
+                      </a>
+                    </div>
+                    <div class="desc-forsidebar">
+                      <p class="judul-sidebar">
+                        Judul Artikel [Berita]</p>
+                      <p class="isi-sidebar">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, labore!<br>
+                        <a href="#">Baca selengkapnya</a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="container-sidebar">
+                    <div class="gallery-forsidebar">
+                      <a href="post-page.html">
+                        <img  src="assets/artikel-01.png" alt=".."  style="float:left; width:5vw;height:5vw;"/>
+                      </a>
+                    </div>
+                    <div class="desc-forsidebar">
+                      <p class="judul-sidebar">
+                        Judul Artikel [Berita]</p>
+                      <p class="isi-sidebar">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, labore!<br>
+                        <a href="#">Baca selengkapnya</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="desc">Add a description of the image here</div>
           </div>
-
-          <div class="responsive">
-            <div class="gallery shadow-lg">
-              <a target="_blank" href="#">
-                <img
-                  src="assets/artikel-03.png"
-                  alt="..."
-                  width="600px"
-                  height="400px"
-                />
-              </a>
-            </div>
-            <div class="desc">Add a description of the image here</div>
-          </div>
-
-          <div class="responsive">
-            <div class="gallery shadow-lg">
-              <a target="_blank" href="#">
-                <img
-                  src="assets/artikel-04.png"
-                  alt="..."
-                  width="600px"
-                  height="400px"
-                />
-              </a>
-            </div>
-            <div class="desc">Add a description of the image here</div>
-          </div>
-          <div class="clearfix"></div>
         </div>
-      </section>
-
+        <!-- articles section -->
+   
+       
       <section>
         <!-- kemitraan section -->
         <p class="title-tentang title-kemitraan">KEMITRAAN</p>
@@ -255,49 +397,22 @@
           <a class="logo-mitra" target="_blank" href="https://www.esri.com">
             <img class="img-logo" src="assets/mitra/logo-esri-1.jpg" />
           </a>
-          <a
-            class="logo-mitra"
-            target="_blank"
-            href="https://www.kominfo.go.id/"
-          >
+          <a class="logo-mitra" target="_blank" href="https://www.kominfo.go.id/">
             <img class="img-logo" src="assets/mitra/logo-kemenkominfo.jpg" />
           </a>
-          <a
-            class="logo-mitra"
-            target="_blank"
-            href="https://www.microsoft.com/id-id"
-          >
+          <a class="logo-mitra" target="_blank" href="https://www.microsoft.com/id-id">
             <img class="img-logo" src="assets/mitra/logo-microsoft.jpg" />
           </a>
-          <a
-            class="logo-mitra"
-            target="_blank"
-            href="https://ee.ft.unri.ac.id/mikrotik-academy/"
-          >
-            <img
-              class="img-logo"
-              src="assets/mitra/logo-mikrotik-unri-akedemi.jpg"
-            />
+          <a class="logo-mitra" target="_blank" href="https://ee.ft.unri.ac.id/mikrotik-academy/">
+            <img class="img-logo" src="assets/mitra/logo-mikrotik-unri-akedemi.jpg" />
           </a>
-          <a
-            class="logo-mitra"
-            target="_blank"
-            href="https://mikrotik.com/training/academy"
-          >
+          <a class="logo-mitra" target="_blank" href="https://mikrotik.com/training/academy">
             <img class="img-logo" src="assets/mitra/logo-mikrotik.jpg" />
           </a>
-          <a
-            class="logo-mitra"
-            target="_blank"
-            href="https://academy.oracle.com/en/oa-web-overview.html"
-          >
+          <a class="logo-mitra" target="_blank" href="https://academy.oracle.com/en/oa-web-overview.html">
             <img class="img-logo" src="assets/mitra/logo-oracle.jpg" />
           </a>
-          <a
-            class="logo-mitra"
-            target="_blank"
-            href="https://www.redhat.com/en"
-          >
+          <a class="logo-mitra" target="_blank" href="https://www.redhat.com/en">
             <img class="img-logo" src="assets/mitra/logo-redhat-1.jpg" />
           </a>
         </div>
@@ -353,5 +468,7 @@
       </div>
     </footer>
     <div class="container-copyright">&copy; Copyright All Right Reserved 2021</div> 
+
+    <script src="script.js"></script>
   </body>
 </html>
