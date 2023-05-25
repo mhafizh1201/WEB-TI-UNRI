@@ -135,8 +135,7 @@ li.nav-item.dropdown {
 .horizontal-line {
   padding: 0%;
   margin: 0%;
-  color: #555555;
-
+  color: #555555; 
 }
 /* end hamburger */
 /* end navbar 2 */
@@ -340,8 +339,6 @@ div.gallery-forsidebar img {
 .judul-event{
   margin-top:8%;
 }
-div.desc { 
-}
 .desc-forsidebar {
   margin-left: 25%;
 
@@ -382,6 +379,7 @@ div.desc {
 /* ARTIKEL SECTION */
 
 /* KEMITRAAN SECTION */
+
 .title-kemitraan {
   margin: 4% 10% 1% 10%;
   font-weight: bold;
