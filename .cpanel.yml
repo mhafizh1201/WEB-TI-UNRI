@@ -8,13 +8,20 @@ deployment:
     - /bin/cp script.js $DEPLOYPATH
     - /bin/cp pageAkreditasi.html $DEPLOYPATH
     - /bin/cp pageBerita.html $DEPLOYPATH
+    - /bin/cp pageBNSP.html $DEPLOYPATH
     - /bin/cp pageDosen.html $DEPLOYPATH
-    - /bin/cp pageDosen.html $DEPLOYPATH
+    - /bin/cp pageEvent.html $DEPLOYPATH
+    - /bin/cp pageJadwalKuliah.html $DEPLOYPATH
+    - /bin/cp pageKalenderAkademik.html $DEPLOYPATH
     - /bin/cp pageKegiatan.html $DEPLOYPATH
     - /bin/cp pageKontak.html $DEPLOYPATH
     - /bin/cp pageKurikulum.html $DEPLOYPATH
+    - /bin/cp pageLabjarkom.html $DEPLOYPATH
+    - /bin/cp pageLabrpl.html $DEPLOYPATH
+    - /bin/cp pageMikrotikAcademy.html $DEPLOYPATH
     - /bin/cp pagePhoto.html $DEPLOYPATH
     - /bin/cp pagePost.html $DEPLOYPATH
+    - /bin/cp pagePrestasMahasiswa.html $DEPLOYPATH
     - /bin/cp pageSasaran.html $DEPLOYPATH
     - /bin/cp pageSejarah.html $DEPLOYPATH
     - /bin/cp pageStrategi.html $DEPLOYPATH
