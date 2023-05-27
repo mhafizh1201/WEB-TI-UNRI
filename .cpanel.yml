@@ -13,18 +13,23 @@ deployment:
     - /bin/cp pageEvent.html $DEPLOYPATH
     - /bin/cp pageJadwalKuliah.html $DEPLOYPATH
     - /bin/cp pageKalenderAkademik.html $DEPLOYPATH
-    - /bin/cp pageKegiatan.html $DEPLOYPATH
     - /bin/cp pageKontak.html $DEPLOYPATH
     - /bin/cp pageKurikulum.html $DEPLOYPATH
     - /bin/cp pageLabjarkom.html $DEPLOYPATH
     - /bin/cp pageLabrpl.html $DEPLOYPATH
     - /bin/cp pageMikrotikAcademy.html $DEPLOYPATH
     - /bin/cp pagePhoto.html $DEPLOYPATH
-    - /bin/cp pagePost.html $DEPLOYPATH
+    - /bin/cp pagePost1.html $DEPLOYPATH
+    - /bin/cp pagePost2.html $DEPLOYPATH
+    - /bin/cp pagePost3.html $DEPLOYPATH
+    - /bin/cp pagePost4.html $DEPLOYPATH
+    - /bin/cp pagePost5.html $DEPLOYPATH
+    - /bin/cp pagePost6.html $DEPLOYPATH
     - /bin/cp pagePrestasMahasiswa.html $DEPLOYPATH
     - /bin/cp pageSasaran.html $DEPLOYPATH
     - /bin/cp pageSejarah.html $DEPLOYPATH
     - /bin/cp pageStrategi.html $DEPLOYPATH
+    - /bin/cp pageTKependidikan.html $DEPLOYPATH
     - /bin/cp pageTujuan.html $DEPLOYPATH
     - /bin/cp pageVideo.html $DEPLOYPATH
     - /bin/cp pageVirtualreality.html $DEPLOYPATH
