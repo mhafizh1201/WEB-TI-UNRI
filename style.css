@@ -765,12 +765,14 @@ div.gallery-mainkontenblog img {
 }
 .image-artikel-left {
   flex: 1;
-  max-width: 50%;
+  width: 50%;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 20%;
 }
 .image-artikel-left img {
   max-width: 100%;
   height: auto;
-  border-radius: 10%;
 }
 .judul-artikel-left {
   font-size: 2vw;
