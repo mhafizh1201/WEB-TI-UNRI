@@ -9,18 +9,18 @@
 }
 /* star navbar 1 */
 .first-navbar {
-  padding-top: 20px ;
+  padding-top: 20px;
   background-color: #012946 !important;
   height: 35px;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .text-nav-1 {
-  color: #19A7CE !important;
+  color: #19a7ce !important;
   font-weight: 500;
-  transition: all .45s ease;
+  transition: all 0.45s ease;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,22 +43,20 @@
   /* background-image: linear-gradient(#012946, #093b5c); */
   position: sticky;
   margin-bottom: 0px;
-  
 }
 .text-nav-2 {
   color: #fff !important;
   font-weight: 600;
-  transition: all .45s ease;
+  transition: all 0.45s ease;
   padding-bottom: 0px;
 }
 .text-nav-2:hover {
-  color: #19A7CE !important;
+  color: #19a7ce !important;
 }
 
 li.nav-item.dropdown {
   position: relative;
   display: inline-block;
-  
 }
 .dropdown-content {
   padding-top: 10px;
@@ -67,7 +65,6 @@ li.nav-item.dropdown {
   position: absolute;
   background-color: #0c1822;
   min-width: 260%;
-  
 }
 .dropdown-lab {
   margin-top: 0%;
@@ -78,7 +75,6 @@ li.nav-item.dropdown {
   min-width: 220px;
   transform: translate(0%, -5%);
   z-index: -1;
-  
 }
 .dropdown:hover .dropdown-content {
   display: block;
@@ -95,7 +91,7 @@ li.nav-item.dropdown {
     display: inline-block;
     color: #ffffff;
   }
- .text-jb{
+  .text-jb {
     font-size: 150%;
   }
   .banner-jb p {
@@ -107,7 +103,6 @@ li.nav-item.dropdown {
   .navMobile {
     display: none;
   }
- 
 }
 /*  start hamburger */
 .navMobile {
@@ -135,7 +130,7 @@ li.nav-item.dropdown {
 .horizontal-line {
   padding: 0%;
   margin: 0%;
-  color: #555555; 
+  color: #555555;
 }
 /* end hamburger */
 /* end navbar 2 */
@@ -147,7 +142,7 @@ li.nav-item.dropdown {
   height: 100vh;
   background-image: url("assets/bg-gedung-teknik2.png");
   background-size: cover;
-  background-position: bottom ;
+  background-position: bottom;
   position: relative;
   text-align: left;
   color: white;
@@ -247,6 +242,10 @@ li.nav-item.dropdown {
   font-size: x-large;
   font-weight: bold;
 }
+.title-tentang a {
+  text-decoration: none;
+  color: #0c1822;
+}
 .text-about {
   font-weight: medium;
 }
@@ -316,16 +315,25 @@ li.nav-item.dropdown {
 /* ABOUT SECTION */
 
 /* ARTIKEL SECTION */
+.desc {
+  font-size: 1vw;
+}
+.container-artikel {
+  margin: 0%;
+  padding: 0%;
+}
+.set-row {
+  margin: 0%;
+  padding: 0%;
+}
 div.gallery {
   border: 1px solid #ccc;
   border-radius: 30px;
 }
-
 div.gallery:hover {
   border: 1px solid #777;
   transform: scale(1.05);
 }
-
 div.gallery img {
   width: 100%;
   height: auto;
@@ -334,34 +342,42 @@ div.gallery img {
 div.gallery-forsidebar img {
   width: 100%;
   height: auto;
-  border-radius: 15% ;
+  border-radius: 15%;
 }
-.judul-event{
-  margin-top:8%;
+.judul-event {
+  margin-top: 8%;
+  font-weight: 600;
+}
+.judul-event a{
+  text-decoration: none;
+  color: #0c1822;
 }
 .desc-forsidebar {
   margin-left: 25%;
-
 }
-.judul-sidebar{
+.judul-sidebar {
   margin-bottom: 0%;
 }
-.isi-sidebar{
+.isi-sidebar {
   font-size: 0.7vw;
+  width: 90%;
 }
 .responsive {
   padding: 0 15px;
   float: left;
-  width: 33%;
+  width: 33.33%;
 }
 .section-event {
   text-align: left;
-  margin: 0% 0% 0% 3%;
+  margin: 0% 0% 0% 0%;
+  padding: 0%;
 }
-.section-berita{
+.section-berita {
   text-align: left;
+  padding: 0%;
+  margin: 0%;
 }
-.section-posterMahasiwa{
+.section-posterMahasiwa {
   text-align: left;
 }
 @media only screen and (max-width: 700px) {
@@ -412,13 +428,12 @@ footer {
   font-weight: 500;
   display: flex;
   /* position: relative; */
-  color: #19A7CE;
+  color: #19a7ce;
   font-size: 15px;
   line-height: 20px;
   display: flex;
-
 }
-.row{
+.row {
   width: 85%;
   margin: auto;
   display: flex;
@@ -427,51 +442,52 @@ footer {
   justify-content: space-between;
   padding: 30px 0 30px;
 }
-.col{
+.col {
   flex-basis: 25%;
   padding: 10px;
 }
-.col:nth-child(2), col:nth-child(3){
+.col:nth-child(2),
+col:nth-child(3) {
   flex-basis: 15%;
 }
-.col h3{
+.col h3 {
   width: 200px;
-  margin-bottom:30px;
+  margin-bottom: 30px;
   position: relative;
   font-size: 17px;
   font-weight: bold;
 }
-.col p{
+.col p {
   color: #fff;
 }
-.container-logo-footer{
+.container-logo-footer {
   margin-left: 50px;
   margin-right: 50px;
   justify-content: center;
   align-items: center;
   display: flex;
-  height:300px;
+  height: 300px;
   width: 300px;
-  background-color: #19A7CE;
+  background-color: #19a7ce;
 }
-.img-logo-footer{
+.img-logo-footer {
   padding: 10px;
   width: 80%;
 }
-.email-id{
+.email-id {
   width: fit-content;
   border-bottom: 1px solid #ccc;
   margin: 20px 0;
 }
-ul li{
+ul li {
   list-style: none;
   margin-bottom: 12px;
 }
-ul li a{
+ul li a {
   text-decoration: none;
   color: #fff;
 }
-.underline{
+.underline {
   margin-top: 9px;
   width: 100%;
   height: 3px;
@@ -482,10 +498,10 @@ ul li a{
   left: 0;
   overflow: hidden;
 }
-.underline span{
+.underline span {
   width: 15px;
   height: 100%;
-  background:#19A7CE;
+  background: #19a7ce;
   border-radius: 3px;
   position: absolute;
   top: 0;
@@ -493,32 +509,32 @@ ul li a{
   animation: moving 2s linear infinite;
 }
 
-@keyframes moving{
-  0%{
+@keyframes moving {
+  0% {
     left: -20px;
   }
-  100%{
+  100% {
     left: 100%;
   }
 }
 
-.social-icons .fab{
+.social-icons .fab {
   width: 40px;
   height: 40px;
-  border-radius:50% ;
+  border-radius: 50%;
   text-align: center;
   line-height: 40px;
   font-size: 20px;
   color: #fff;
-  background: #19A7CE;
+  background: #19a7ce;
   margin-right: 15px;
   cursor: pointer;
   margin-top: 50px;
-  transition: all .45s ease;
+  transition: all 0.45s ease;
 }
-.social-icons .fab:hover{
+.social-icons .fab:hover {
   background: #fff;
-  color: #19A7CE;
+  color: #19a7ce;
 }
 /* FOOTER */
 
@@ -625,30 +641,31 @@ ul li a{
 }
 
 /* KONTEN PHOTO PAGE*/
-.photoPageContent {
+.PageContent {
   margin: 1% 10%;
   min-height: 100vh;
 }
 .photoPageContent h1 {
-  font-size: 2vw;
+  font-size: 1vw;
 }
 .galleryCard {
   margin: 1%;
   float: left;
   border-radius: 5%;
+  overflow: hidden;
 }
 .galleryCard:hover {
   transform: scale(1.05);
 }
 .imgBox img {
-  width: 100%;
-  height: 35vh;
+  width: 30vw;
+  height: 45vh;
   object-fit: cover;
   border-radius: 5%;
 }
 
 /* SEJARAH PAGE*/
-.artikel-sejarah{
+.artikel-sejarah {
   margin: 2% 10%;
 }
 .sertif-container {
@@ -656,10 +673,10 @@ ul li a{
 }
 
 /* KURIKULUM PAGE */
-.container-page-download{
+.container-page-download {
   padding: 50px;
 }
-.container-page-download p{
+.container-page-download p {
   margin-top: 20px;
   font-weight: bold;
 }
@@ -667,30 +684,154 @@ ul li a{
   font-weight: bold;
   color: black;
   text-decoration: none;
-  transition: all .45s ease;
+  transition: all 0.45s ease;
 }
-.container-page-download p a:hover{
-  color: #19A7CE;
+.container-page-download p a:hover {
+  color: #19a7ce;
 }
-.kurikulum-page{
+.kurikulum-page {
   border: 5px black;
-  border-style: solid ;
+  border-style: solid;
 }
 
 /* MIKROTIK AKADEMI PAGE */
-.container-logo-mikrotik-academy{
+.container-logo-mikrotik-academy {
   padding-top: 60px;
   justify-content: center;
   display: flex;
   align-items: center;
 }
-.container-logo-mikrotik-academy img{
+.container-logo-mikrotik-academy img {
   border: 5px black;
-  border-style:solid ;
+  border-style: solid;
 }
-.logo-mikrotik-academy{
+.logo-mikrotik-academy {
   width: auto;
 }
-.mikrotik-page{
+.mikrotik-page {
   padding: 20px;
+}
+
+/* START HALAMAN AKREDITASI */
+.hero-page-box {
+  height: 30vh;
+  overflow: hidden;
+}
+.hero-page {
+  width: 100%;
+  height: 100vh;
+  background-image: url("assets/bg-judul-page.png");
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+.text-hero-page {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5%;
+  text-align: center;
+}
+.bingkai-sertif {
+  margin: auto;
+  padding: 0%;
+}
+.sertif {
+  width: 80%;
+}
+/* END HALAMAN AKREDITASI */
+
+/* START HALAMAN BERITA */
+div.gallery-mainkontenblog img {
+  width: 100%;
+  height: auto;
+  border-radius: 15%;
+}
+.judul-event {
+  margin-top: 8%;
+}
+.desc-forsidebar {
+  margin-left: 25%;
+}
+.judul-sidebar {
+  margin-bottom: 0%;
+}
+.isi-sidebar {
+  font-size: 0.7vw;
+  width: 90%;
+}
+.container-leftkonten {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2% 0%;
+}
+.image-artikel-left {
+  flex: 1;
+  max-width: 50%;
+}
+.image-artikel-left img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10%;
+}
+.judul-artikel-left {
+  font-size: 2vw;
+}
+.text-artikel-left {
+  text-align: left;
+  flex: 1;
+  padding: 0 20px;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .image,
+  .text {
+    max-width: 100%;
+  }
+}
+/* END HALAMAN BERITA */
+
+/* START HALAMAN DOSEN */
+.dosenCard {
+  margin: 1%;
+  float: left;
+  border-radius: 5%;
+  height: 100vh;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.imgBox {
+  height: 40vh;
+  overflow: hidden;
+}
+.imgBox img {
+  transform: translate(-2%, -10%);
+}
+/* END HALAMAN DOSEN */
+
+/* START HALAMAN LAB JARKOM */
+.main-labjarkom { 
+  margin: 1% 10%;
+}
+/* END HALAMAN LAB JARKOM */
+
+/* START TENAGA KEPENDIDIKAN */
+.tkependidikanCard{
+  margin: 1%;
+  float: left;
+  border-radius: 5%;
+  height: 52vh;
+  border-radius: 30px;
+  overflow: hidden;
+}
+/* END TENAGA KEPENDIDIKAN */
+.hero-post {
+  text-align: left;
+}
+.img-in-post {
+  width: 100%;
+}
+.container-post{
+  text-align: justify;
 }
