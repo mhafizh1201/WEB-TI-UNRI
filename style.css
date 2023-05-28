@@ -15,6 +15,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+
 }
 .text-nav-1 {
   color: #19A7CE !important;
@@ -38,23 +40,25 @@
 
 /* start navbar 2 */
 .second-navbar {
+  width: 100%;
   background-color: #073c64 !important;
-  position: sticky;
   margin-bottom: 0px;
 }
 .text-nav-2 {
+  width: 100%;
   color: #fff !important;
   font-weight: 600;
-  transition: all 0.45s ease;
+  transition: all .45s ease;
   padding-bottom: 0px;
 }
 .text-nav-2:hover {
-  color: #19a7ce !important;
+  color: #19A7CE !important;
 }
 
 li.nav-item.dropdown {
   position: relative;
   display: inline-block;
+  
 }
 .dropdown-content {
   padding-top: 10px;
@@ -63,6 +67,9 @@ li.nav-item.dropdown {
   position: absolute;
   background-color: #0c1822;
   min-width: 260%;
+  transition: all .45s ease;
+
+  
 }
 .dropdown-lab {
   margin-top: 0%;
@@ -73,6 +80,7 @@ li.nav-item.dropdown {
   min-width: 220px;
   transform: translate(0%, -5%);
   z-index: -1;
+  
 }
 .dropdown:hover .dropdown-content {
   display: block;
@@ -91,7 +99,7 @@ li.nav-item.dropdown {
     display: inline-block;
     color: #ffffff;
   }
-  .text-jb {
+ .text-jb{
     font-size: 150%;
   }
   .banner-jb p {
@@ -103,6 +111,7 @@ li.nav-item.dropdown {
   .navMobile {
     display: none;
   }
+ 
 }
 /*  start hamburger */
 .navMobile {
@@ -130,7 +139,7 @@ li.nav-item.dropdown {
 .horizontal-line {
   padding: 0%;
   margin: 0%;
-  color: #555555;
+  color: #555555; 
 }
 /* end hamburger */
 /* end navbar 2 */
@@ -142,7 +151,7 @@ li.nav-item.dropdown {
   height: 100vh;
   background-image: url("assets/bg-gedung-teknik2.png");
   background-size: cover;
-  background-position: bottom;
+  background-position: bottom ;
   position: relative;
   text-align: left;
   color: white;
@@ -242,10 +251,6 @@ li.nav-item.dropdown {
   font-size: x-large;
   font-weight: bold;
 }
-.title-tentang a {
-  text-decoration: none;
-  color: #0c1822;
-}
 .text-about {
   font-weight: medium;
 }
@@ -315,25 +320,16 @@ li.nav-item.dropdown {
 /* ABOUT SECTION */
 
 /* ARTIKEL SECTION */
-.desc {
-  font-size: 1vw;
-}
-.container-artikel {
-  margin: 0% 10%;
-  padding: 0%;
-}
-.set-row {
-  margin: 0%;
-  padding: 0%;
-}
 div.gallery {
   border: 1px solid #ccc;
   border-radius: 30px;
 }
+
 div.gallery:hover {
   border: 1px solid #777;
   transform: scale(1.05);
 }
+
 div.gallery img {
   width: 100%;
   height: auto;
@@ -342,42 +338,34 @@ div.gallery img {
 div.gallery-forsidebar img {
   width: 100%;
   height: auto;
-  border-radius: 15%;
+  border-radius: 15% ;
 }
-.judul-event {
-  margin-top: 8%;
-  font-weight: 600;
-}
-.judul-event a{
-  text-decoration: none;
-  color: #0c1822;
+.judul-event{
+  margin-top:8%;
 }
 .desc-forsidebar {
   margin-left: 25%;
+
 }
-.judul-sidebar {
+.judul-sidebar{
   margin-bottom: 0%;
 }
-.isi-sidebar {
+.isi-sidebar{
   font-size: 0.7vw;
-  width: 90%;
 }
 .responsive {
   padding: 0 15px;
   float: left;
-  width: 33.33%;
+  width: 33%;
 }
 .section-event {
   text-align: left;
-  margin: 0% 0% 0% 0%;
-  padding: 0%;
+  margin: 0% 0% 0% 3%;
 }
-.section-berita {
+.section-berita{
   text-align: left;
-  padding: 0%;
-  margin: 0%;
 }
-.section-posterMahasiwa {
+.section-posterMahasiwa{
   text-align: left;
 }
 @media only screen and (max-width: 700px) {
@@ -478,7 +466,7 @@ animation: moving 2s linear infinite;
   0%{
     left: -20px;
   }
-  100% {
+  100%{
     left: 100%;
   }
 }
@@ -488,11 +476,7 @@ animation: moving 2s linear infinite;
 .col-lg-2 ul{
   margin: 0;
   padding: 0px 0px 0px 12px;
-}
-.social-icons .fab {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+
 }
 .col-lg-2 ul li{
   list-style: none;
@@ -508,6 +492,7 @@ animation: moving 2s linear infinite;
   border-bottom: 1px solid #ccc;
   margin: 20px 0;
 }
+
 .social-icons .fab{
   width: 50px;
   height: 50px;
@@ -522,9 +507,9 @@ animation: moving 2s linear infinite;
   transition: all .45s ease;
   margin-right: 15px;
 }
-.social-icons .fab:hover {
+.social-icons .fab:hover{
   background: #fff;
-  color: #19a7ce;
+  color: #19A7CE;
 }
 .logo-mitra-footer{
   width: 170px;
@@ -549,7 +534,7 @@ animation: moving 2s linear infinite;
 /* COPYRIGHT */
 
 /*HALAMAN POST*/
-.judul-page {
+.container-judul-page {
   height: 200px;
   text-align: center;
   justify-content: center;
@@ -557,15 +542,12 @@ animation: moving 2s linear infinite;
   position: relative;
   text-align: left;
   color: white;
+  width: auto;
 }
-.judul-page img {
+.container-judul-page img {
   width: 100%;
-  object-fit: cover;
 }
 
-.img-judul-page {
-  width: 100%;
-}
 .judul-text-page {
   padding-top: 60px;
   position: absolute;
@@ -640,42 +622,45 @@ animation: moving 2s linear infinite;
 }
 
 /* KONTEN PHOTO PAGE*/
-.PageContent {
+.photoPageContent {
   margin: 1% 10%;
   min-height: 100vh;
 }
 .photoPageContent h1 {
-  font-size: 1vw;
+  font-size: 2vw;
 }
 .galleryCard {
   margin: 1%;
   float: left;
   border-radius: 5%;
-  overflow: hidden;
 }
 .galleryCard:hover {
   transform: scale(1.05);
 }
 .imgBox img {
-  width: 30vw;
-  height: 45vh;
+  width: 100%;
+  height: 35vh;
   object-fit: cover;
   border-radius: 5%;
 }
 
 /* SEJARAH PAGE*/
-.artikel-sejarah {
+.artikel-sejarah{
   margin: 2% 10%;
+  padding: 50px;
+}
+.artikel-sejarah p{
+  font-weight:400;
 }
 .sertif-container {
   margin: 5%;
 }
 
 /* KURIKULUM PAGE */
-.container-page-download {
+.container-page-download{
   padding: 50px;
 }
-.container-page-download p {
+.container-page-download p{
   margin-top: 20px;
   font-weight: bold;
 }
@@ -683,156 +668,118 @@ animation: moving 2s linear infinite;
   font-weight: bold;
   color: black;
   text-decoration: none;
-  transition: all 0.45s ease;
+  transition: all .45s ease;
 }
-.container-page-download p a:hover {
-  color: #19a7ce;
+.container-page-download p a:hover{
+  color: #19A7CE;
 }
-.kurikulum-page {
+.kurikulum-page{
   border: 5px black;
-  border-style: solid;
+  border-style: solid ;
 }
 
 /* MIKROTIK AKADEMI PAGE */
-.container-logo-mikrotik-academy {
+.container-logo-mikrotik-academy{
   padding-top: 60px;
   justify-content: center;
   display: flex;
   align-items: center;
 }
-.container-logo-mikrotik-academy img {
+.container-logo-mikrotik-academy img{
   border: 5px black;
-  border-style: solid;
+  border-style:solid ;
 }
-.logo-mikrotik-academy {
+.logo-mikrotik-academy{
+  margin-bottom: 50px;
   width: auto;
 }
-.mikrotik-page {
+.mikrotik-page{
   padding: 20px;
 }
 
-/* START HALAMAN AKREDITASI */
-.hero-page-box {
-  height: 30vh;
-  overflow: hidden;
-}
-.hero-page {
-  width: 100%;
-  height: 100vh;
-  background-image: url("assets/bg-judul-page.png");
-  background-size: cover;
-  position: relative;
-  color: white;
-}
-.text-hero-page {
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 5%;
-  text-align: center;
-}
-.bingkai-sertif {
-  margin: auto;
-  padding: 0%;
-}
-.sertif {
-  width: 80%;
-}
-/* END HALAMAN AKREDITASI */
+/* DOSEN */
 
-/* START HALAMAN BERITA */
-div.gallery-mainkontenblog img {
-  width: 100%;
-  height: auto;
-  border-radius: 15%;
-}
-.judul-event {
-  margin-top: 8%;
-}
-.desc-forsidebar {
-  margin-left: 25%;
-}
-.judul-sidebar {
-  margin-bottom: 0%;
-}
-.isi-sidebar {
-  font-size: 0.7vw;
-  width: 90%;
-}
-.container-leftkonten {
+.row-dosen{
   display: flex;
-  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  padding: 2% 0%;
 }
-.image-artikel-left {
-  flex: 1;
-  width: 50%;
-  height: 350px;
-  overflow: hidden;
-  border-radius: 20%;
-}
-.image-artikel-left img {
-  max-width: 100%;
-  height: auto;
-}
-.judul-artikel-left {
-  font-size: 2vw;
-}
-.text-artikel-left {
-  text-align: left;
-  flex: 1;
-  padding: 0 20px;
-}
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-  .image,
-  .text {
-    max-width: 100%;
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="row-dosen"] {
+    display: block;
   }
 }
-/* END HALAMAN BERITA */
-
-/* START HALAMAN DOSEN */
-.dosenCard {
-  margin: 1%;
-  float: left;
-  border-radius: 5%;
-  height: 100vh;
-  border-radius: 30px;
-  overflow: hidden;
-}
-.imgBox {
-  height: 40vh;
-  overflow: hidden;
-}
-.imgBox img {
-  transform: translate(-2%, -10%);
-}
-/* END HALAMAN DOSEN */
-
-/* START HALAMAN LAB JARKOM */
-.main-labjarkom { 
-  margin: 1% 10%;
-}
-/* END HALAMAN LAB JARKOM */
-
-/* START TENAGA KEPENDIDIKAN */
-.tkependidikanCard{
-  margin: 1%;
-  float: left;
-  border-radius: 5%;
-  height: 52vh;
-  border-radius: 30px;
-  overflow: hidden;
-}
-/* END TENAGA KEPENDIDIKAN */
-.hero-post {
-  text-align: left;
-}
-.img-in-post {
+.col-dosen{
+  display: flex;
   width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
 }
-.container-post{
-  text-align: justify;
+.container-dosen{
+  width:400px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.container-image-dosen{
+  width: auto;
+  overflow:hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container-image-dosen img{
+  width: 100%;
+  scale: 1.2;
+}
+.container-keterangan-dosen{
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  transition: all .45s ease;
+  
+
+}
+.container-keterangan-dosen:hover{
+  background-color: black;
+
+}
+.container-keterangan-dosen p{
+  transition: all .45s ease;
+  color: black;
+}
+.container-keterangan-dosen p:hover{
+  color: #fff;
+}
+/* DOSEN */
+
+.container-akreditasi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.container-mikrotik-academy{
+  padding: 50px;
+}
+
+.container-kontak{
+  padding: 50px;
+}
+.container-vr{
+  padding: 50px;
+}
+.container-lab-jarkom{
+  padding: 50px;
+}
+.container-lab-rpl{
+  padding: 50px;
 }
