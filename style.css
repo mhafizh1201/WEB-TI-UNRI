@@ -492,6 +492,7 @@ animation: moving 2s linear infinite;
   border-bottom: 1px solid #ccc;
   margin: 20px 0;
 }
+
 .social-icons .fab{
   width: 50px;
   height: 50px;
@@ -777,5 +778,8 @@ animation: moving 2s linear infinite;
   padding: 50px;
 }
 .container-lab-jarkom{
+  padding: 50px;
+}
+.container-lab-rpl{
   padding: 50px;
 }
