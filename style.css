@@ -15,6 +15,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+
 }
 .text-nav-1 {
   color: #19A7CE !important;
@@ -38,12 +40,12 @@
 
 /* start navbar 2 */
 .second-navbar {
+  width: 100%;
   background-color: #073c64 !important;
-  position: sticky;
   margin-bottom: 0px;
-  
 }
 .text-nav-2 {
+  width: 100%;
   color: #fff !important;
   font-weight: 600;
   transition: all .45s ease;
@@ -65,6 +67,8 @@ li.nav-item.dropdown {
   position: absolute;
   background-color: #0c1822;
   min-width: 260%;
+  transition: all .45s ease;
+
   
 }
 .dropdown-lab {
@@ -531,7 +535,7 @@ animation: moving 2s linear infinite;
 /* COPYRIGHT */
 
 /*HALAMAN POST*/
-.judul-page {
+.container-judul-page {
   height: 200px;
   text-align: center;
   justify-content: center;
@@ -539,15 +543,12 @@ animation: moving 2s linear infinite;
   position: relative;
   text-align: left;
   color: white;
+  width: auto;
 }
-.judul-page img {
+.container-judul-page img {
   width: 100%;
-  object-fit: cover;
 }
 
-.img-judul-page {
-  width: 100%;
-}
 .judul-text-page {
   padding-top: 60px;
   position: absolute;
@@ -647,6 +648,10 @@ animation: moving 2s linear infinite;
 /* SEJARAH PAGE*/
 .artikel-sejarah{
   margin: 2% 10%;
+  padding: 50px;
+}
+.artikel-sejarah p{
+  font-weight:400;
 }
 .sertif-container {
   margin: 5%;
@@ -686,8 +691,93 @@ animation: moving 2s linear infinite;
   border-style:solid ;
 }
 .logo-mikrotik-academy{
+  margin-bottom: 50px;
   width: auto;
 }
 .mikrotik-page{
   padding: 20px;
+}
+
+/* DOSEN */
+
+.row-dosen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="row-dosen"] {
+    display: block;
+  }
+}
+.col-dosen{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.container-dosen{
+  width:400px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.container-image-dosen{
+  width: auto;
+  overflow:hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container-image-dosen img{
+  width: 100%;
+  scale: 1.2;
+}
+.container-keterangan-dosen{
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  transition: all .45s ease;
+  
+
+}
+.container-keterangan-dosen:hover{
+  background-color: black;
+
+}
+.container-keterangan-dosen p{
+  transition: all .45s ease;
+  color: black;
+}
+.container-keterangan-dosen p:hover{
+  color: #fff;
+}
+/* DOSEN */
+
+.container-akreditasi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.container-mikrotik-academy{
+  padding: 50px;
+}
+
+.container-kontak{
+  padding: 50px;
+}
+.container-vr{
+  padding: 50px;
+}
+.container-lab-jarkom{
+  padding: 50px;
 }
