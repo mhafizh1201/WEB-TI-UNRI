@@ -138,7 +138,7 @@ li.nav-item.dropdown {
 /* HERO SECTION */
 .container-hero {
   display: flex;
-  width: 100%;
+  width: auto;
   height: 100vh;
   background-image: url("assets/bg-gedung-teknik2.png");
   background-size: cover;
