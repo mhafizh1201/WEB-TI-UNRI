@@ -16,12 +16,11 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-
 }
 .text-nav-1 {
-  color: #19A7CE !important;
+  color: #19a7ce !important;
   font-weight: 600;
-  transition: all .45s ease;
+  transition: all 0.45s ease;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,17 +47,16 @@
   width: 100%;
   color: #fff !important;
   font-weight: 600;
-  transition: all .45s ease;
+  transition: all 0.45s ease;
   padding-bottom: 0px;
 }
 .text-nav-2:hover {
-  color: #19A7CE !important;
+  color: #19a7ce !important;
 }
 
 li.nav-item.dropdown {
   position: relative;
   display: inline-block;
-  
 }
 .dropdown-content {
   padding-top: 10px;
@@ -67,9 +65,7 @@ li.nav-item.dropdown {
   position: absolute;
   background-color: #0c1822;
   min-width: 260%;
-  transition: all .45s ease;
-
-  
+  transition: all 0.45s ease;
 }
 .dropdown-lab {
   margin-top: 0%;
@@ -80,16 +76,14 @@ li.nav-item.dropdown {
   min-width: 220px;
   transform: translate(0%, -5%);
   z-index: -1;
-  
 }
 .dropdown:hover .dropdown-content {
   display: block;
-  transition: all .45s ease;
-
+  transition: all 0.45s ease;
 }
 .container-labdropdown:hover .dropdown-lab {
   display: block;
-  transition: all .45s ease;  
+  transition: all 0.45s ease;
 }
 .hambuger-icon {
   display: none;
@@ -99,7 +93,7 @@ li.nav-item.dropdown {
     display: inline-block;
     color: #ffffff;
   }
- .text-jb{
+  .text-jb {
     font-size: 150%;
   }
   .banner-jb p {
@@ -111,7 +105,6 @@ li.nav-item.dropdown {
   .navMobile {
     display: none;
   }
- 
 }
 /*  start hamburger */
 .navMobile {
@@ -139,7 +132,7 @@ li.nav-item.dropdown {
 .horizontal-line {
   padding: 0%;
   margin: 0%;
-  color: #555555; 
+  color: #555555;
 }
 /* end hamburger */
 /* end navbar 2 */
@@ -151,7 +144,7 @@ li.nav-item.dropdown {
   height: 100vh;
   background-image: url("assets/bg-gedung-teknik2.png");
   background-size: cover;
-  background-position: bottom ;
+  background-position: bottom;
   position: relative;
   text-align: left;
   color: white;
@@ -323,12 +316,16 @@ li.nav-item.dropdown {
 div.gallery {
   border: 1px solid #ccc;
   border-radius: 30px;
+  overflow: hidden;
 }
-
-div.gallery:hover {
-  border: 1px solid #777;
+.scaleup-image:hover {
   transform: scale(1.05);
 }
+
+/* div.gallery:hover {
+  border: 1px solid #777;
+  transform: scale(1.05);
+} */
 
 div.gallery img {
   width: 100%;
@@ -338,19 +335,18 @@ div.gallery img {
 div.gallery-forsidebar img {
   width: 100%;
   height: auto;
-  border-radius: 15% ;
+  border-radius: 15%;
 }
-.judul-event{
-  margin-top:8%;
+.judul-event {
+  margin-top: 8%;
 }
 .desc-forsidebar {
   margin-left: 25%;
-
 }
-.judul-sidebar{
+.judul-sidebar {
   margin-bottom: 0%;
 }
-.isi-sidebar{
+.isi-sidebar {
   font-size: 0.7vw;
 }
 .responsive {
@@ -362,10 +358,10 @@ div.gallery-forsidebar img {
   text-align: left;
   margin: 0% 0% 0% 3%;
 }
-.section-berita{
+.section-berita {
   text-align: left;
 }
-.section-posterMahasiwa{
+.section-posterMahasiwa {
   text-align: left;
 }
 @media only screen and (max-width: 700px) {
@@ -407,114 +403,111 @@ div.gallery-forsidebar img {
 /* KEMITRAAN SECTION */
 
 /* FOOTER */
-footer{
+footer {
   display: flex;
   background-color: #012946;
 }
-.row{
+.row {
   display: flex;
-  
 }
-.container-logo-footer{
-  background-color: #19A7CE;
+.container-logo-footer {
+  background-color: #19a7ce;
   justify-content: center;
   align-items: center;
   display: flex;
   width: auto;
   padding: 30px;
-  margin-left:42px;
-  margin-right:42px;
-
+  margin-left: 42px;
+  margin-right: 42px;
 }
-.img-logo-footer{
+.img-logo-footer {
   width: 300px;
 }
-.col-sm-12{
+.col-sm-12 {
   padding: 0px;
 }
-.col-lg-2{
+.col-lg-2 {
   padding: 30px;
 }
-.col-lg-2 h3{
+.col-lg-2 h3 {
   width: 100%;
-  color: #19A7CE;
+  color: #19a7ce;
   font-size: 18px;
   font-weight: bold;
 }
-.underline{
-width: auto;
-height: 3px;
-background: #fff;
-border-radius: 3px;
-position: relative;
-top: 10px;
-left: 0;
-margin-bottom: 20px;
-overflow: hidden;
+.underline {
+  width: auto;
+  height: 3px;
+  background: #fff;
+  border-radius: 3px;
+  position: relative;
+  top: 10px;
+  left: 0;
+  margin-bottom: 20px;
+  overflow: hidden;
 }
-.underline span{
-width: 15px;
-height: 100%;
-background:#19A7CE;
-border-radius: 3px;
-position: absolute;
-top: 0;
-left: 10px;
-animation: moving 2s linear infinite;
+.underline span {
+  width: 15px;
+  height: 100%;
+  background: #19a7ce;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 2s linear infinite;
 }
-@keyframes moving{
-  0%{
+@keyframes moving {
+  0% {
     left: -20px;
   }
-  100%{
+  100% {
     left: 100%;
   }
 }
-.col-lg-2 p{
+.col-lg-2 p {
   color: white;
 }
-.col-lg-2 ul{
+.col-lg-2 ul {
   margin: 0;
   padding: 0px 0px 0px 12px;
-
 }
-.col-lg-2 ul li{
+.col-lg-2 ul li {
   list-style: none;
   margin-bottom: 12px;
 }
-.col-lg-2 ul li a{
+.col-lg-2 ul li a {
   text-decoration: none;
   font-weight: 500;
   color: #fff;
 }
-.email-id{
+.email-id {
   width: fit-content;
   border-bottom: 1px solid #ccc;
   margin: 20px 0;
 }
 
-.social-icons .fab{
+.social-icons .fab {
   width: 50px;
   height: 50px;
-  border-radius:50% ;
+  border-radius: 50%;
   text-align: center;
   line-height: 50px;
   font-size: 25px;
   color: #fff;
-  background: #19A7CE;
+  background: #19a7ce;
   cursor: pointer;
   margin-top: 30px;
-  transition: all .45s ease;
+  transition: all 0.45s ease;
   margin-right: 15px;
 }
-.social-icons .fab:hover{
+.social-icons .fab:hover {
   background: #fff;
-  color: #19A7CE;
+  color: #19a7ce;
 }
-.logo-mitra-footer{
+.logo-mitra-footer {
   width: 170px;
 }
-.container-logo-km{
+.container-logo-km {
   margin-top: 30px;
   width: 100%;
 }
@@ -645,22 +638,22 @@ animation: moving 2s linear infinite;
 }
 
 /* SEJARAH PAGE*/
-.artikel-sejarah{
+.artikel-sejarah {
   margin: 2% 10%;
   padding: 50px;
 }
-.artikel-sejarah p{
-  font-weight:400;
+.artikel-sejarah p {
+  font-weight: 400;
 }
 .sertif-container {
   margin: 5%;
 }
 
 /* KURIKULUM PAGE */
-.container-page-download{
+.container-page-download {
   padding: 50px;
 }
-.container-page-download p{
+.container-page-download p {
   margin-top: 20px;
   font-weight: bold;
 }
@@ -668,38 +661,38 @@ animation: moving 2s linear infinite;
   font-weight: bold;
   color: black;
   text-decoration: none;
-  transition: all .45s ease;
+  transition: all 0.45s ease;
 }
-.container-page-download p a:hover{
-  color: #19A7CE;
+.container-page-download p a:hover {
+  color: #19a7ce;
 }
-.kurikulum-page{
+.kurikulum-page {
   border: 5px black;
-  border-style: solid ;
+  border-style: solid;
 }
 
 /* MIKROTIK AKADEMI PAGE */
-.container-logo-mikrotik-academy{
+.container-logo-mikrotik-academy {
   padding-top: 60px;
   justify-content: center;
   display: flex;
   align-items: center;
 }
-.container-logo-mikrotik-academy img{
+.container-logo-mikrotik-academy img {
   border: 5px black;
-  border-style:solid ;
+  border-style: solid;
 }
-.logo-mikrotik-academy{
+.logo-mikrotik-academy {
   margin-bottom: 50px;
   width: auto;
 }
-.mikrotik-page{
+.mikrotik-page {
   padding: 20px;
 }
 
 /* DOSEN */
 
-.row-dosen{
+.row-dosen {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -710,76 +703,74 @@ animation: moving 2s linear infinite;
     display: block;
   }
 }
-.col-dosen{
+.col-dosen {
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: center;
   padding: 50px;
 }
-.container-dosen{
-  width:400px;
+.container-dosen {
+  width: 400px;
   align-items: center;
   justify-content: center;
   border-radius: 20px;
   overflow: hidden;
 }
-.container-image-dosen{
+.container-image-dosen {
   width: auto;
-  overflow:hidden;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
-.container-image-dosen img{
+.container-image-dosen img {
   width: 100%;
   scale: 1.2;
 }
-.container-keterangan-dosen{
+.container-keterangan-dosen {
   padding: 20px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #fff;
-  transition: all .45s ease;
-  
-
+  transition: all 0.45s ease;
 }
-.container-keterangan-dosen:hover{
+.container-keterangan-dosen:hover {
   background-color: black;
-
 }
-.container-keterangan-dosen p{
-  transition: all .45s ease;
+.container-keterangan-dosen p {
+  transition: all 0.45s ease;
   color: black;
 }
-.container-keterangan-dosen p:hover{
+.container-keterangan-dosen p:hover {
   color: #fff;
 }
 /* DOSEN */
-
-.container-akreditasi{
+.container-artikel {
+  margin: 10%;
+}
+.container-akreditasi {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 50px;
 }
 
-.container-mikrotik-academy{
+.container-mikrotik-academy {
   padding: 50px;
 }
 
-.container-kontak{
+.container-kontak {
   padding: 50px;
 }
-.container-vr{
+.container-vr {
   padding: 50px;
 }
-.container-lab-jarkom{
+.container-lab-jarkom {
   padding: 50px;
 }
-.container-lab-rpl{
+.container-lab-rpl {
   padding: 50px;
 }
